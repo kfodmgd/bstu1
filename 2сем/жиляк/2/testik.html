@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+class FlavorForm extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {value: 'Сторож'};
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(event) {
+        this.setState({value: event.target.value});
+    }
+
+    handleSubmit(event) {
+      if(this.state.value=='Сторож'){
+        const element=(<div><a href="https://google.com">Ссылка</a>, <a href="https://google.com">Ссылка</a></div>);
+        ReactDOM.render(
+        element,
+        document.getElementById('root')
+        );
+      }
+      if(this.state.value=='Могильщик'){
+        const element=(<div><a href="https://google.com">Ссылка</a>, <a href="https://google.com">Ссылка</a></div>);
+        ReactDOM.render(
+        element,
+        document.getElementById('root')
+        );
+      }
+      if(this.state.value=='Кассир'){
+        const element=(<div><a href="https://google.com">Ссылка</a>, <a href="https://google.com">Ссылка</a></div>);
+        ReactDOM.render(
+        element,
+        document.getElementById('root')
+        );
+      }
+      if(this.state.value=='Крановщик'){
+        const element=(<div><a href="https://google.com">Ссылка</a>, <a href="https://google.com">Ссылка</a></div>);
+        ReactDOM.render(
+        element,
+        document.getElementById('root')
+        );
+      }
+      if(this.state.value=='Предприниматель'){
+        const element=(<div><a href="https://google.com">Ссылка</a>, <a href="https://google.com">Ссылка</a></div>);
+        ReactDOM.render(
+        element,
+        document.getElementById('root')
+        );
+      }
+      if(this.state.value=='Врач'){
+        const element=(<div><a href="https://google.com">Ссылка</a>, <a href="https://google.com">Ссылка</a></div>);
+        ReactDOM.render(
+        element,
+        document.getElementById('root')
+        );
+      }
+        event.preventDefault();
+    }
+
+    render() {
+        return (
+            <form onSubmit={this.handleSubmit}>
+                <label>
+                    Выберите понравившийся фрукт:
+                    <select value={this.state.value} onChange={this.handleChange}>
+                        <option value="Сторож">Сторож</option>
+                        <option value="Могильщик">Могильщик</option>
+                        <option value="Кассир">Кассир</option>
+                        <option value="Крановщик">Крановщик</option>
+                        <option value="Предприниматель">Предприниматель</option>
+                        <option value="Врач">Врач</option>
+                    </select>
+                </label>
+                <input type="submit" value1="Отправить" />
+            </form>
+        );
+    }
+}
+
+ReactDOM.render(
+  <FlavorForm />,
+  document.getElementById('root')
+);
+    </script>
+</body>
+</html>

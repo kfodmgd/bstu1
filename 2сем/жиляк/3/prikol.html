@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+class LanguageForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {language:'',value:''};
+
+    this.onChangeSelect = this.onChangeSelect.bind(this);
+    this.onChangeLogin = this.onChangeLogin.bind(this);
+  }
+
+  onChangeSelect(event) {
+    let abc=this.state.language;
+    console.log(this.state.value);
+
+        let num=['+7',' (','_','_','_',') ','_','_','_','-','_','_','-','_','_'];
+        let qwe=[];
+        let j=0;
+        if(this.state.value=='q'){
+          console.log('q');
+        }
+        if(this.state.value=='w'){
+          console.log('w');
+        }
+        if(this.state.value=='e'){
+          console.log('e');
+        }
+        if(this.state.value=='r'){
+          console.log('r');
+        }
+        for(let i=0;i<15;i++){
+            if(num[i]=='_'){
+                qwe+=abc[j];
+                j++;
+            }else{
+                qwe+=num[i];    
+            }
+        }console.log(qwe);
+        this.state.language=qwe;
+        this.setState({language: this.state.language});
+        this.setState({value: this.state.value});
+
+
+        this.setState({value1: event.target.value1});
+        console.log(this.state.value1)
+    }    
+  
+
+    onChangeLogin(event) {
+      this.setState({language: event.target.value});
+  }
+
+  render() {
+    return (
+      <form>
+        <label>
+          <p><label> Номер телефона: <input type="text" name="login" value={this.state.language}onChange={this.onChangeLogin}/></label></p>
+          <select value={this.state.value}onChange={this.onChangeSelect}>
+                <option value='q'name='qwe'>(+375)Беларусь</option>
+                <option value='w'name='qwe'>(+7)Россия</option>
+                <option value='e'name='qwe'>(+380)Украина</option>
+                <option value='r'name='qwe'>(+48)Польша</option>
+                <option value='t'name='qwe'>(+370)Литва</option>
+                <option value='y'name='qwe'>(+371)Латвия</option>
+          </select>
+        </label>
+        <input type="submit" value1="Submit" />
+      </form>
+    );
+  }
+}
+
+ReactDOM.render(<LanguageForm />,  document.getElementById('root'));
+    </script>
+</body>
+</html>

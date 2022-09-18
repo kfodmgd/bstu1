@@ -1,0 +1,5 @@
+﻿  4laba.cpp
+G:\лабы 2сем\сд дед\5\1zadanie\4laba\4laba.cpp(253,20): warning C4101: len: неиспользованная локальная переменная
+G:\лабы 2сем\сд дед\5\1zadanie\4laba\4laba.cpp(253,6): warning C4101: k: неиспользованная локальная переменная
+G:\лабы 2сем\сд дед\5\1zadanie\4laba\4laba.cpp(253,35): warning C4101: size1: неиспользованная локальная переменная
+  4laba.vcxproj -> G:\лабы 2сем\сд дед\5\1zadanie\Debug\4laba.exe

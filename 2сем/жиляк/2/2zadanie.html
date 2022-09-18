@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+    let element=(j) => {
+      let str=[];
+      for(j=1;j<6;j++){
+        str.push(<option>{j}</option>);
+      }
+      return str;
+    };
+
+    let itog_sel=(
+      <select>{element()}</select>
+    )
+
+
+
+    let dop=()=>{
+      let dop=[];
+      for(j=0;j<6;j++){
+        if(element[j]){
+          dop.push("qwergh");
+        }
+      }
+        /*if(getElementById('kk3').checked){
+          dop.push("qwert");
+        }*/
+      
+      return dop;
+    }
+
+    ReactDOM.render(itog_sel, document.getElementById('root'));
+    </script>
+</body>
+</html>

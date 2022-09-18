@@ -1,0 +1,18 @@
+@font-face 
+    {font-family: 'Caveat';
+    src:url('Caveat.woff') }
+year{
+    display: block;
+    color: violet;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+inf{
+    display: inline-block;
+    text-indent: 20px;
+    color:#A12312;
+    font-family:'Caveat'; 
+    font-size: 20px;
+    margin-bottom: 0px;
+}

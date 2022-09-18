@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="test.css"?>
+<information>
+    <profession>
+        <university>БГТУ</university>
+        <passing>229</passing>
+        <set>45</set>
+        <city>Минск</city>
+    </profession>
+    <profession>
+        <university>БГУИР</university>
+        <passing>209</passing>
+        <set>35</set>
+    </profession>
+</information>

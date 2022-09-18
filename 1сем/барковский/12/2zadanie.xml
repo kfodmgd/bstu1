@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="attest.xsl"?>
+<attestation>
+<child>
+<name>Новиков Лука Ярославович</name>
+<mark>5</mark>
+</child>
+
+<child>
+<name>Иванов Георгий Михайлович</name>
+<mark>7</mark>
+</child>
+
+<child>
+<name>Тимофеева Софья Артёмовна</name>
+<mark>8</mark>
+</child>
+
+<child>
+<name>Колосов Артём Константинович</name>
+<mark>7</mark>
+</child>
+
+<child>
+<name>Шаповалов Ярослав Егорович</name>
+<mark>3</mark>
+</child>
+
+<child>
+<name>Сазонова Ева Егоровна</name>
+<mark>2</mark>
+</child>
+
+<child>
+<name>Лыков Марк Артёмович</name>
+<mark>6</mark>
+</child>
+
+<child>
+<name>Самойлова Серафима Владимировна</name>
+<mark>4</mark>
+</child>
+
+<child>
+<name>Лебедева Дарья Георгиевна</name>
+<mark>1</mark>
+</child>
+
+<child>
+<name>Дубинин Артём Львович</name>
+<mark>4</mark>
+</child>
+
+<child>
+<name>Островский Тимофей Матвеевич</name>
+<mark>9</mark>
+</child>
+
+<child>
+<name>Белякова Анастасия Владимировна</name>
+<mark>1</mark>
+</child>
+</attestation>

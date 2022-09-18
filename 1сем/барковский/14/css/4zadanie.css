@@ -1,0 +1,20 @@
+.b1 {
+  fill: red; }
+
+.b2 {
+  stroke: black;
+  fill: none; }
+
+.b3 {
+  fill: none;
+  stroke-width: 4px;
+  stroke: #00ff4c; }
+
+.b4 {
+  fill: none;
+  stroke: #d9ff00; }
+
+.b5 {
+  fill: #b005ff; }
+
+/*# sourceMappingURL=4zadanie.css.map */

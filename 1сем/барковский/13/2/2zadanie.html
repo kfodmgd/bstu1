@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div>
+            <p><span id="name"></span></p>
+            <p><span id="surname"></span></p>
+            <p><span id="form"></span></p>
+            <p><span id="group"></span></p>
+        </div>
+        <script>
+            txt="<student>";//создание подобия xml формы как мы это делали раньше(типо свои теги и инфа в них и др)
+            txt=txt+"<name>Ivan</name>";
+            txt=txt+"<surname>Ivanov</surname>";
+            txt=txt+"<form>1 form</form>";
+            txt=txt+"<group>1 group</group>";
+            txt=txt+"</student>";
+            if(window.DOMParser){//domparser стандартный объект бработки xml dom
+                parser=new DOMParser();//создание нового объекта
+                xmlDoc=parser.parseFromString(txt,"text/xml");//присвоение значений при чём это функция, которая принимает значения из нашей переменной выше и переводит 
+                //в xml
+            }
+            else{
+                xmlDoc=new ActiveXObject("Microsoft.XMLDOM");//специально для интернет эксплорера, т.к. именно для него используется ActiveXObject
+                xmlDoc.async=false;//async просто гарантирует что функция вернёт некоторое знаение(промис)
+                xmlDoc.loadXML(txt);//загрузка переменной, которая записана в виде xml
+            }
+            //вывод
+            document.getElementById("name").innerHTML=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+            document.getElementById("surname").innerHTML=xmlDoc.getElementsByTagName("surname")[0].childNodes[0].nodeValue;
+            document.getElementById("form").innerHTML=xmlDoc.getElementsByTagName("form")[0].childNodes[0].nodeValue;
+            document.getElementById("group").innerHTML=xmlDoc.getElementsByTagName("group")[0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>

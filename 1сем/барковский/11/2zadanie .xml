@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<!DOCTYPE server2b2t [
+<!ELEMENT server2b2t (period+)>
+<!ELEMENT period (year,inf)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT inf (#PCDATA)>
+]>
+<server2b2t>
+    <period>
+        <year>2010</year>
+        <inf>4Chan period for 2b2t. Thats start of the history of the server. In 2010 was grifered spawn.</inf>
+    </period>
+
+    <period>
+        <year>2011</year>
+        <inf>In 2011 create Swastica base. Lately in this year this base was griffered. In april start Facepunch era. In that perion Facepunch project was started and with that started the war. In that time was player data corruption.</inf>
+    </period>
+
+    <period>
+        <year>2012</year>
+        <inf>This year started from 2b2t backdoored and oportunity to cheating. In Janyary Ends of facepunch republic project and it's fails. With that starts new period which calls The Great Server Decay. A lot of people leave server, some people from the Facepunch Republic eamed up with many other small groups to form Valkyria. Facepunchers try to keep the republic together and create new Facepunch thread. Im March found Imperator's base and in may found 2k2k. After that Facepunchers lost thir last base. After some days was found people who was in facepunch thread and it was End of the Facepunch war.</inf>
+    </period>
+
+    <period>
+        <year>2013</year>
+        <inf>Started First Valkyrian Era. In Minecraft added Ender Dragon. With that The End re-enabled and End dragon is slayed. Players found new dupe in The End. The First Spawn incursion happened during June, 2013. And after a several months started the second Spawn incursion which lasted from August to mid October. 2b2t gets backdoored a second time and in that time was World Borer reached.</inf>
+    </period>
+
+    <period>
+        <year>2014</year>
+        <inf>Asgard is abandoned and grifered before finished. With that Valkyria members went to do solo projects and joined other small groups after the destruction of Asgard. This era nemes Legion-Gape Interlude. In April Valkyria founded Infinite blocks are made. In June The legion of Shenandoah begins and in tis month Gape 1 was founded also Fernir was founded too. After that started Second Valkyrian Era. In December Southern Canal Project is started.</inf>
+    </period>
+
+    <period>
+        <year>2015</year>
+        <inf>2b2t was updated to 1.8. In february Fernir project was finished. Asgard ll is founded. In April was started 3rd Spawn Incursion with that people found and griefed a lot of buildings. In nay 3rd Incursion ends nd startes new era-Consolidation Era. Last facepunch thread is closed. Pyrobyte completes. In this year was founded Vortex coalition. Was started Fellowship of the Diamond builds. in Decdmber people founded Imperator's base and destroyed building. At the end of the year was begins backdoor conspiracy.</inf>
+    </period>
+
+    <period>
+        <year>2016</year>
+        <inf>Destroied a lot of buildings for example Space Valkyria, Land of Norphs, King's landing, KGB and others. People found BedTP exploit. Also this year was the worst in the history of the server. Online was 1-5 peoples in day. But suddenly server become alive. Youtuber Rusher found this server and made the video. After that started The Great War. Online was up hightly and ald players come back to the server for to push back new players. With that admin added order to the server. while war goes a lot of historycal buildings(the Valley of Wheat one of the most famouse and important building, Aureus, Valkyrie, Asgard, Asgard II) was destroyed also was the 4th Spawn Incursion from Rusher to destroy all what was on the server. At that time players start to found different ways to win with that was found Lag machines and Ender Crystals. Some wars which was in this period Napkin-GoDz Drama, Battle for spawn, Largest Raid on 2b2t, The Torogadude Incident, Raid on Peacekeeper HQ, The Three Way War Starts and others. The most important part's are The Battle of Spawn and Fight with Rusher. After that The Rusher War ends and rushers leave the server. In November was 5th Spawn Incursion.</inf>
+    </period>
+
+    <period>
+        <year>2017</year>
+        <inf>The period of Grand Deceleration Period. this year start's The "Disbandment" of The Vortex Coalition. People continue using glitches(for example Donkey Dupe) and the srever saw 32k sword. One of the players reached End border. In this year was The Disbandment of The 4th Reich. In summer occurred First Battle of Summer and was Server Crash Crisis and after several weeks 2nd Server Crash Crisis. In september was Spanish Crisis. In this year players saw first building which was on the height 256. In the end of the year admin delete order for veterans and ther add paid order(there was less people than in default order). After that started The Unification Period. Started Vo-Perium war and VoCo posts first meme video about Esperium. After that VoCo allies with Inferno and destroy several Inferno's bases. With that Inferno disbands and VoCo posted another meme video. Some teams coop and formed The United Group Embassy (UGE).</inf>
+    </period>
+
+    <period>
+        <year>2018</year>
+        <inf>Spanish Inquisition which consist of spanish-speaking grows bigger.The Alpha Alliance (AA) Formed(a group dedicated to destroying Emperium and the rest of the UGE). In April AntVenom released video on 2b2t. Was started 6th Spawn Incursion and The Obsidian Wall is finished around spawn. FitMC Reveals secrets about Tyranny to the public. In the beginning of May jared2013 does a "31days31greifs"(griefs 1 ,ase every day). May 2018 was The Age of Rebirth. In June Block Game Mecca is greifed( the largest base on the server). Server started to reaches 50,000 in-game days. Started VoPerium vs infared war. In September Fuze III Released a video on 2b2t and The French War starts. Started 7th Spawn Incursion and Anti-Incursion Formed. In October was Discovered Book Ban. In the end of November Fit battles FuzeIII and started new period which called The Youtuber Interlude. In the end of 2018 was 3rd Server Crash Crisis.</inf>
+    </period>
+
+    <period>
+        <year>2019</year>
+        <inf>2019 started from 4th Server Crash Crisis and Server crash and corruption. Was VoPerium Spawn Battle. In February 6k6k gets griefed. That's was the base of the The Rimland Republic. Was patched "Book dupe". Was "8th Incursion" falls victim to an admin inside with that a lot of players was banned in this chaos. In May Etika streams 2b2t and thats bebcome a new perion for the server-Second Age of Hype. Etika formally declares war on 2b2t(he was killing by player on the spawn) but in this month he leaves 2b2t because Etika announces that he will be temporarily quitting streaming 2b2t and he was killing every time while streaming. AtlanticCraft makes a general video on anarchy servers. 2b2t goes viral in Taiwan. In mid-july Jared's 8th Incursion begins and this ends in mid-august when Rusher officially comes back to 2b2t. In that time The Taiwanese community begins to die down. In August Entityspeed is patched. In October Lotus City III is greifed and in the end of the month  Fit puts a bounty on the Farlands. In the beginning of November No Server November begins. In the end of november TeamNoTrees declared. In this month was built Largest Spawn structure by Barritone.</inf>
+    </period>
+
+    <period>
+        <year>2020</year>
+        <inf>Spawn chunks reset and player data corruption. Russian youtubers became made video about the server. In April Hausemaster patches ChunkBans. In May Start of the War Against Nether Highways. In July Quarantine hype ends and start Quarantine hype deceleration. The Guardsmen host the first fight club location dubbed "The labyrinth". The Klansmen and Anti Bedrock Society destroy the last blocks of ZiggyBase's Bedrock Comet. Anti-speed plugins on 2b2t break. Infinity Incursion begins flooding Spawn from bedrock to build limit. In september Infinity Incursion completes the 0 0 water cube project. In October MrBeast and 3 of his friends join 2b2t. In December The "Spanish Crisis" returns and The Autumn Drain is greifed.</inf>
+    </period>
+    
+    <period>
+        <year>2021</year>
+        <inf>The Motorway Extension Gurus completes the final diagonal highway. The Vortex Coalition is disbanded. In june The server is subject to a DDoS attack and shuts down and after some days server comes back. In July players knew about NoCom exploit. Admin startde to patched him. In August players found new methods of removing bedrock. This method based on Neter portal. "Black Holes" are made public. Nowadays exist place where no bedrock in 4 chunks on the spawn. And was destroi last block of water in the Nether(this block some players save a lot of years).</inf>
+    </period>
+</server2b2t>

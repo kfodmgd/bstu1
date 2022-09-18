@@ -1,0 +1,27 @@
+$bg_red:red;
+$bg_none:none;
+$bg_vio:rgb(176, 5, 255);
+$str_black:black;
+$str_lime:rgb(0, 255, 76);
+$str_yel:rgb(217, 255, 0);
+$str_wid:4px;
+
+.b1{
+    fill:$bg_red;
+}
+.b2{
+    stroke:$str_black;
+    fill:$bg_none;
+}
+.b3{
+    fill:$bg_none;
+    stroke-width: $str_wid;
+    stroke:$str_lime;
+}
+.b4{
+    fill:$bg_none;
+    stroke:$str_yel;
+}
+.b5{
+    fill:$bg_vio;
+}

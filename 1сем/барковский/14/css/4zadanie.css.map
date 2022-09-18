@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,GAAG;EACC,IAAI,EATA,GAAG;;AAWX,GAAG;EACC,MAAM,EATC,KAAK;EAUZ,IAAI,EAZC,IAAI;;AAcb,GAAG;EACC,IAAI,EAfC,IAAI;EAgBT,YAAY,EAXP,GAAG;EAYR,MAAM,EAdA,OAAe;;AAgBzB,GAAG;EACC,IAAI,EApBC,IAAI;EAqBT,MAAM,EAjBD,OAAgB;;AAmBzB,GAAG;EACC,IAAI,EAvBA,OAAgB",
+"sources": ["../sass/4zadanie.scss"],
+"names": [],
+"file": "4zadanie.css"
+}

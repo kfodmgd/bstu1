@@ -1,0 +1,13 @@
+$fig_fill:none;
+$size:36px;
+$col_str:green;
+$wid:2px;
+path{
+    fill:$fig_fill;
+    stroke:$col_str;
+    stroke-width: $wid;
+}
+textPath{
+    font-size:$size;
+
+}

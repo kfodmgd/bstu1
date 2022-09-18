@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    function tick() {
+        let element = (
+        <div>
+        <h2>Сейчас {new Date().toLocaleTimeString()}.</h2>
+        <h2>В Лондоне {new Date().getUTCHours()}:{new Date().getUTCMinutes()}:{new Date().getUTCSeconds()}.</h2>
+        <h2>Время сейчас(12 часовой формат) {new Date().toLocaleString('en-US', { hour: 'numeric', minute:'numeric',second:"numeric", hour12: true })}</h2>
+        </div>
+        );
+
+    ReactDOM.render(element, document.getElementById('root'));
+}
+
+setInterval(tick, 1000);
+    </script>
+</body>
+</html>

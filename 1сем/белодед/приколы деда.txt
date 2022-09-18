@@ -1,0 +1,294 @@
+рефераты:
+опред мем которая выделятеся для определения переменной
+
+
+
+
+struck book(шаблон переменная){
+char author[MAXAUT];
+} libry(структурная переменная);
+library.author='sdfgh';
+
+
+
+тоже самое но без имени шаблона 
+struck (шаблон переменная){
+char author[MAXAUT];
+} libry(структурная переменная);
+
+
+при описанном шаблоне можно описать структурное переменную без её имени, но
+!!!так только для си и с++
+в с++ ключевое слово struct можно опустить
+
+
+можно описать несколько переменных кот соотв 1 шаблону
+struck book{
+char author[MAXAUT];
+} libry,libry2,libry3;
+также можно исп массив для структурных переменных
+
+
+\
+
+применительно к структурной перем можно использовать инециализацию
+struct MeStr{
+int iVariable;
+long iValue;
+char Str[10];
+} mystract={10,300L,"Hello"};
+
+пользователю можно исп все элем структуры непосредственно в коде 
+для доступа к элем структуры юзают указатели или .
+
+
+struct house{
+char street[51];
+char houseNum[6];
+};
+house MyHouse;
+strcpy(MyHouse.street,"asdfdgfhgjh");
+strcpy(MyHouse.HouseNum."sdfg"0);
+при работе со структурами юзают фция опред размера объекта
+
+sizeof можно и к самому типу данных
+
+структура 1 из самых распространнённых типов данных в системе прогния
+
+
+
+1,массив структур
+можно хранение разнотипных данных в 1 переменной удобно для сопровождения кода, но этого мало
+если колво таких данных больше 1 
+для обработки множетсва записей(при работе с реаляционными бд) можно юзать множетсво записей
+и их обработка можен выполняться с пом массива структур
+для описания массива структур юзают стандарт синтаксис
+
+house mDISTR[30] массив состоящий из 30 элементов
+
+трудности при работе с элем массива структур, они значимы когда работаем с массивом стркутур, элем кот явл массивом
+есил есть массив library то тогда 
+
+
+структуры могут содерж другие структуры
+
+truct names{
+char frst[LEN];
+char last[LEN];
+};
+struct guy{
+////
+}
+void main(){
+struct struct guy fellow={
+нициализация приколов
+};
+
+
+him->income это тоже самое что и fellow[0].income если him=&fellow[0]
+или
+him==&fellow[0], то him==fellow[0].
+
+
+a.b   доступ к члену обекта
+a->b  член объекта б на кот указывает а
+*a.b  знач на кот указывает член и объекта а
+
+
+
+
+
+
+
+=====================================================22 02 22
+если существует шаблок allnum соотв переменных long int short unsighed то прототип будет типа void
+тип может быть реализован в полной мере в виде return
+можно 1 структурный тип вернуть и задать
+allnum Func2(allnum);
+
+struct house{}
+void AutAddr(house);
+int main(){
+house MyHouse;
+MyHouse.RegNum=524;
+strcpy(MyHouse.Street,"dfgvbn");
+outAddr(MyHouse);
+return 0;
+}
+
+void OutAddr(house Myhouse){
+cout<<house.street<<",";
+cout<<house.regnum;
+}
+
+для описания указателя на структуру
+тип структуры* идентификатор указателя;
+
+
+
+struct funds{
+char *bank;
+float bankfund;
+char *save;
+float savefund;} stan={
+"aenior tomatos bank",
+1023.43,
+"saving and lending of snoopy",
+4239.87
+};
+float sum(struct funds *);
+void main(){
+float total;
+total=sum(&stan);
+printf("sdfghj",total);
+}
+float sum(struct funds *money){
+return(money->backfund+money->savefund);
+}
+
+если шаблон который содержит разные счета
+
+передача структур посредством ссылки
+тип структуры &имя_ссылки=имя переменной
+по аналогии с передаваемыми скалярными значениями
+отличие в синтаксисе для указателей ссылки
+
+
+
+
+/* передача элементов структуры как аргументов функции */
+#include<stdio.h>
+struct funds {
+			char *bank;
+			float bankfund;
+			char *save;
+			float savefund; } stan = {
+						"Senior tomatoes Bank",
+						1023.43,
+						"Savings and lendings of Snoopy",
+						4239.87
+									};
+float sum(float x, float y);
+void main()
+{
+float total;
+extern struct funds stan; /* необязательное описание */
+total=sum(stan.bankfund, stan.savefund);
+printf ("Stan has only %.2f dollars.\n", total);
+}
+
+/* складывает два числа типа float */
+float sum(float x, float y)
+	{
+		return x+y;
+	}
+
+лучше передавать адреса переменных, чем их значения
+
+
+
+массив структур
+/* передача массива структур в функцию */
+#include<stdio.h>
+struct funds {
+			char *bank;
+			float bankfund;
+			char *save;
+			float savefund; } jones[2] ={
+						{
+							"Senior tomatoes Bank",
+							1023.43,
+							"Savings and lendings of Snoopy",
+							4239.87
+							},
+							{
+							"Honest Jack's Bank",
+							976.57,
+							"Accumulation by prior plan",
+							1760.13
+							}
+						};
+float sum(struct funds *);
+void main()
+{
+float total;
+total=sum(jones);
+printf ("Jonsons have only %.2f dollars.\n" , total);
+}
+
+float sum (struct funds *money)
+{
+float total;
+int i;
+for( i = 0, total = 0; i < 2; i++ , money++)
+	total+= money->bankfund + money->savefund;
+return(total);
+}
+
+
+
+
+структура также позволяет объединять разные данные и код
+код может быть оформлен 2 способами:
+фция-член
+метод
+
+1 из парадигм ооп(инкапсуляция) объед кода и данных
+
+ecghjo`yysq dfhbr bcg awbb dyenhb cnhernehs bcgjkmpjdfnm aeyrwb. dsxbck vjlekm фция не прототип
+struct _3d{
+double x,y,z;
+} vect;
+
+сама функция может быть описана двояко
+1.за пределами структуры
+double _3d::mod()
+{
+	return sqrt (x * x + y * y + z * z);
+}
+
+обязаны указания обекта, которому фция принадлежит
+имя самой фции от имени объекта отличается операцией расширенного доступа(::)
+mоd явл описана в 3d
+одно и тоже имя фции можно сип в разных объектах
+
+перегрузка фции
+
+для фции чела всё также как и обычной фцией
+
+
+
+
+часто юзают модификатор const с данными и фциями
+этот модиф базируется на
+int*	- pointer на int				на целый тип
+int const *	- pointer на const int			на косту целого типа
+int * const	- const pointer на int			конст указатель на целый тип
+int const * const	- const pointer на const int	конст указатель на конст целого типа
+
+
+!модиф const опред изменяемость и неизменяемость 
+
+int **	- pointer на pointer на int
+int ** const	- const pointer на a pointer на int
+int * const *	- pointer на const pointer на int
+int const **	- pointer на pointer на const int
+int * const * const	- const pointer на const pointer на int
+
+
+
+
+
+постоянная ссылка
+const int &ptr1=var0;
+ptr1=8//nopr
+var0=6;//yep
+
+int var1=1;
+int var2=0;
+int *const ptr2=&var1;
+ptr2=&var2;//err
+
+
+казатель на консту
+

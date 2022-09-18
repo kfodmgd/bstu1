@@ -1,0 +1,3 @@
+﻿  miinus.cpp
+G:\наркевич\project\codesez\miinus\miinus.cpp(9,9): warning C4101: b: неиспользованная локальная переменная
+  miinus.vcxproj -> G:\наркевич\project\codesez\Debug\miinus.exe

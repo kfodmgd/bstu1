@@ -1,0 +1,7 @@
+﻿  codesez.cpp
+G:\наркевич\project\codesez\codesez\codesez.cpp(7,10): warning C4101: len: неиспользованная локальная переменная
+G:\наркевич\project\codesez\codesez\codesez.cpp(7,14): warning C4101: k: неиспользованная локальная переменная
+G:\наркевич\project\codesez\codesez\codesez.cpp(7,6): warning C4101: rot: неиспользованная локальная переменная
+G:\наркевич\project\codesez\codesez\codesez.cpp(6,16): warning C4101: rez: неиспользованная локальная переменная
+G:\наркевич\project\codesez\codesez\codesez.cpp(6,7): warning C4101: str: неиспользованная локальная переменная
+  codesez.vcxproj -> G:\наркевич\project\codesez\Debug\codesez.exe

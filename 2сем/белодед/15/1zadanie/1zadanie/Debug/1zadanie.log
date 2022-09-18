@@ -1,0 +1,7 @@
+﻿  1zadanie.cpp
+G:\лабы 2сем\белодед\15\1zadanie\1zadanie\List.h(46,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+G:\лабы 2сем\белодед\15\1zadanie\1zadanie\1zadanie.cpp(45,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Hash_Table.cpp
+G:\лабы 2сем\белодед\15\1zadanie\1zadanie\List.h(46,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Создание кода...
+  1zadanie.vcxproj -> G:\лабы 2сем\белодед\15\1zadanie\Debug\1zadanie.exe

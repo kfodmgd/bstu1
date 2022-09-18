@@ -1,0 +1,4 @@
+﻿  1zadanie.cpp
+G:\лабы 2сем\белодед\9\1zadanie\1zadanie\1zadanie.cpp(17,7): warning C4101: s: неиспользованная локальная переменная
+G:\лабы 2сем\белодед\9\1zadanie\1zadanie\1zadanie.cpp(110,20): warning C4101: dname: неиспользованная локальная переменная
+  1zadanie.vcxproj -> G:\лабы 2сем\белодед\9\1zadanie\Debug\1zadanie.exe

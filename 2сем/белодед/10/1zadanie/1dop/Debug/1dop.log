@@ -1,0 +1,5 @@
+﻿  1dop.cpp
+G:\лабы 2сем\белодед\10\1zadanie\1dop\1dop.cpp(8,10): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+G:\лабы 2сем\белодед\10\1zadanie\1dop\1dop.cpp(14,9): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+G:\лабы 2сем\белодед\10\1zadanie\1dop\1dop.cpp(24,8): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  1dop.vcxproj -> G:\лабы 2сем\белодед\10\1zadanie\Debug\1dop.exe

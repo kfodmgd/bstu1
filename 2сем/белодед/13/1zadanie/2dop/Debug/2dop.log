@@ -1,0 +1,9 @@
+﻿  2dop.cpp
+G:\лабы 2сем\белодед\13\1zadanie\2dop\2dop.cpp(10,1): warning C4005: max: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(193): message : см. предыдущее определение "max"
+G:\лабы 2сем\белодед\13\1zadanie\2dop\2dop.cpp(31,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+G:\лабы 2сем\белодед\13\1zadanie\2dop\2dop.cpp(32,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+G:\лабы 2сем\белодед\13\1zadanie\2dop\2dop.cpp(37,19): warning C4101: letter: неиспользованная локальная переменная
+G:\лабы 2сем\белодед\13\1zadanie\2dop\2dop.cpp(37,16): warning C4101: s: неиспользованная локальная переменная
+G:\лабы 2сем\белодед\13\1zadanie\2dop\2dop.cpp(127): warning C4715: insertElem: значение возвращается не при всех путях выполнения
+  2dop.vcxproj -> G:\лабы 2сем\белодед\13\1zadanie\Debug\2dop.exe

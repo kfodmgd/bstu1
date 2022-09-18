@@ -1,0 +1,2 @@
+﻿1zadanie.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl sort(struct Stack * &)" (?sort@@YAXAAPAUStack@@@Z) в функции _main.
+G:\лабы 2сем\белодед\7\1zadanie\Debug\1zadanie.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

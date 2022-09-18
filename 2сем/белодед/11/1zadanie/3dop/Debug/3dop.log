@@ -1,0 +1,3 @@
+﻿  3dop.cpp
+G:\лабы 2сем\белодед\11\1zadanie\3dop\3dop.cpp(43,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  3dop.vcxproj -> G:\лабы 2сем\белодед\11\1zadanie\Debug\3dop.exe

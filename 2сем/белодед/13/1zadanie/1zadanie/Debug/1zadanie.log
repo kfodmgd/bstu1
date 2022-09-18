@@ -1,0 +1,6 @@
+﻿  1zadanie.cpp
+G:\лабы 2сем\белодед\13\1zadanie\1zadanie\1zadanie.cpp(63,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Heap.cpp
+G:\лабы 2сем\белодед\13\1zadanie\1zadanie\Heap.cpp(112,28): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Создание кода...
+  1zadanie.vcxproj -> G:\лабы 2сем\белодед\13\1zadanie\Debug\1zadanie.exe

@@ -1,0 +1,4 @@
+﻿  2dop.cpp
+G:\лабы 2сем\белодед\11\1zadanie\2dop\2dop.cpp(46,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+G:\лабы 2сем\белодед\11\1zadanie\2dop\2dop.cpp(29): warning C4715: insert: значение возвращается не при всех путях выполнения
+  2dop.vcxproj -> G:\лабы 2сем\белодед\11\1zadanie\Debug\2dop.exe

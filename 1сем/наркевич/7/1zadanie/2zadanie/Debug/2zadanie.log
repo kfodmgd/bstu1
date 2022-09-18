@@ -1,0 +1,6 @@
+﻿  2zadanie.cpp
+F:\лабы\наркевич 1 лаба\7\1zadanie\2zadanie\2zadanie.cpp(11,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+F:\лабы\наркевич 1 лаба\7\1zadanie\2zadanie\2zadanie.cpp(13,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+F:\лабы\наркевич 1 лаба\7\1zadanie\2zadanie\2zadanie.cpp(13,1): error C2365: setlocale: переопределение; предыдущим определением было "функция"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h(97): message : см. объявление "setlocale"
+F:\лабы\наркевич 1 лаба\7\1zadanie\2zadanie\2zadanie.cpp(20,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных

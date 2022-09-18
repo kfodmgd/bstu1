@@ -1,0 +1,3 @@
+﻿  prim.cpp
+C:\Users\Аркадий\Desktop\наркевич 1 лаба\8\123\prim\prim.cpp(6): warning C4717: getSum: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  prim.vcxproj -> C:\Users\Аркадий\Desktop\наркевич 1 лаба\8\123\Debug\prim.exe

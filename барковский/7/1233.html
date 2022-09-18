@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        @keyframes ani {
+        0% { opacity: 0; }
+
+        44.44% { opacity: 1; }
+        100% { opacity: 1; }
+        }
+        .anim img { 
+            position:absolute; 
+            width: 100px; 
+            height: 100px; 
+            opacity:0; 
+            animation-name: ani; 
+            animation-duration: 10s; 
+        }
+        .anim img:nth-child(1) { 
+            animation-delay: 0s; }
+        .anim img:nth-child(2) { animation-delay: 1s; 
+        }
+        </style>
+    </head>
+    <body>
+        <div class="anim">
+        <img src="star 53.jpg">
+        <img src="kauga.jpg">
+        </div>
+    </body>
+</html>

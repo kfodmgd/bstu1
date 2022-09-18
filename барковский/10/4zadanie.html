@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+      .box1{background:green;flex-grow: 1; margin:10px;}/*flex-grow для увеличения блока по горизонтали*/
+      .box2 img{height: 300px;width: 300px;}
+      .box2{width:300px;}
+      .box{
+        padding:15px;
+        width:200px;
+        text-align: center;
+      }
+      .container{
+         display:flex;
+         align-items:flex-start;
+         justify-content: space-between;
+         flex-wrap:wrap;
+      }
+      .sdf {
+      flex-basis: 100%;
+      }  
+      @media screen and (max-width:1280px) and (min-width:768px){
+        .box2{
+            font-size: 15px;
+            color: aqua;
+            }
+      }
+      @media screen and (max-width:768px){
+        .box2{
+            font-size: 30px;
+            color: blue;
+            }
+      }
+      @media screen and (max-width:480px){
+        .box2{
+            font-size: 45px;
+            color: crimson;
+            }
+      }
+    </style>
+    <body>
+        <div class = "container">
+            <div class = "box box1">One</div>
+            <div class="sdf"></div>
+            <div class = "box box1">two</div>
+            <div class = "box box1">three</div>
+            <div class = "box box1">four</div>
+            <div class="sdf"></div>
+            <div class="box box1">flexbox
+                flex-direction позволяет вращать главную ось.(column and row)
+                justify-content работает с главной осью(горизонтальная), то align-items работает с осью, 
+                перпендикулярной главной оси. само свойство применяется ко всем элементам и выравнивает их.
+                align-self позволяет выравнивать элементы по отдельности и задать им свою собственную позицию
+</div>
+            <div class="box box1">                
+                flex-grow:увеличение блоков чтобы они были одинаковой ширины и занимали всё пространство в флексбоксе(диве). т.к. если их 
+                применять ко всему флексбоксу то неважно какие значения чтобы они растянулись на всю ширинуб но если задать значение 
+                отдельному элементу в флексбоксе, то он будет занимать больше места, чем остальные, а остальные в это время будут уменьшаться 
+                чтобы вместился первый
+                flex-shrink аналогично только блоки уже уменьшаются и обычно юзают когда блоки не вмещаются в контейнер. Можно задать 
+                уменьшение отдельным блокам.
+                flex:0 (grow) 1 (shrink) auto (basis). сокращённая запись</div>
+                <div class="sdf"></div>
+                <div></div>
+                <div class=" box2">
+                    <img src="..\duck\duck12.jpg">
+                    <label>Уточки бегут</label>
+                </div>
+                <div class=" box2">
+                    <img src="..\duck\duck10.jpg">
+                    <label>пика-пика</label>
+                </div>
+                <div class=" box2">
+                    <img src="..\duck\duck2.jpg">
+                    <label>Голубь</label>
+                </div>
+                <div class=" box2">
+                    <img src="..\duck\duck11.jpg">
+                    <label>Уточки ныряют</label>
+                </div>
+
+                <!--<figure class = "frog box box1">
+	                <img src = "F:\лабы\барковский 1 лаба\duck\duck12.jpg">
+	                <figcaption>Уточки бегут</figcaption>
+                </figure>
+                	
+                    <figure class = "frog box box1">
+                        <img src = "F:\лабы\барковский 1 лаба\duck\duck10.jpg">
+                        <figcaption>Пика-пика</figcaption>
+                    </figure>
+               
+                    <figure class = "frog box box1">
+                        <img src = "F:\лабы\барковский 1 лаба\duck\duck2.jpg">
+                        <figcaption>Голубь</figcaption>
+                    </figure>
+                	
+                    <figure class = "frog box box1">
+                        <img src = "F:\лабы\барковский 1 лаба\duck\duck11.jpg">
+                        <figcaption>Уточки ныряют</figcaption>
+                    </figure>-->
+                
+        </div>
+    </body>
+</html>

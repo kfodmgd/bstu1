@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-size:1.2em;
+            }
+            fieldset{
+                background-color: indigo;
+                color:white;
+                width:700px;
+                height: 500px;
+            }
+            input[type="text"],.vio1{
+                background-color: rgba(255,255,255,.5);
+                color: rgba(255,255,255,1);
+                box-shadow: 0 0 10px rgba(255,255,255, .75);
+            }
+            .kn{
+                background-color: navy;
+                box-shadow: 0 0 4px white;
+                color: white;
+                padding:5px;
+                margin-left:220px;
+            }
+            
+            .vio:focus{
+                background-color: black;
+                color:black;
+            }
+            label{
+            margin-left: 15px;
+            display:inline-block;
+            color:rgba(255,255,255,1);
+            }
+            input{
+                border-radius: 5px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <label style="display:block; text-align: center;">Регистрация постоянного клиента</label>
+                <br/><br/>
+                    <label>Фамилия:</label> <input type="text" style="margin-left: 190px;" class="vio"/>
+                    <br/> <br/>
+                    <label>Имя:</label> <input type="text" style="margin-left: 230px;" class="vio"/>
+                    <br/> <br/>
+                    <label>Отчество:</label> <input type="text" style="margin-left: 190px;" class="vio"/>
+                    <br/> <br/>
+                    <label>Ваш возраст:</label> <input type="text" style="margin-left: 165px;" class="vio"/>
+                    <br/> <br/>
+                    <label>Пол</label><input type="radio" name="123" style="margin-left:250px;"/>мужской
+                       <input type="radio" name="123"/>женский
+                    <br/> <br/>
+                    <label>Email:</label> <input type="email" style="margin-left: 220px;" class="vio1"/>
+                    <br/> <br/>
+                    <label>Страна проживания</label> <input type="text" style="margin-left: 110px;" class="vio"/>
+                    <br/> <br/>
+                    <label>Откуда вы узнали про нас?</label>
+                    <select  style="margin-left: 55px;">
+                        <option>123</option>
+                    </select>
+                    <br/> <br/>
+                    <label>Дата заполнения:</label> <input type="date" style="margin-left: 130px;" />
+                    <br/> <br/>
+                    <button type="button" style="margin-left: 150px;" class="kn">Регистрация</button>
+                    <button type="button" style="margin-left: 0px;" class="kn">Отмена</button>
+                    </fieldset>
+        </form>
+    </body>
+</html>

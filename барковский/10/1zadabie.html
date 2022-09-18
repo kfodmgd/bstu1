@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+      .box1{background:green;flex-grow: 1; margin:10px;}/*flex-grow для увеличения блока по горизонтали*/
+
+      .box{
+         font-size:35px;
+         padding:15px;
+         width:150px;
+         text-align: center;
+      }
+      .container{
+         display:flex;
+         align-items:flex-start;
+         justify-content: space-between;
+         flex-wrap:wrap;
+      }
+      .sdf {
+      flex-basis: 100%;
+      }  
+      @media screen and (max-width:560px){
+         .container{
+         display:flex;
+         flex-direction:row;
+         flex-wrap:wrap;
+          }
+      }
+    </style>
+    <body>
+        <div class = "container">
+            <div class = "box box1">One</div>
+            <div class="sdf"></div>
+            <div class = "box box1">two</div>
+            <div class = "box box1">three</div>
+            <div class = "box box1">four</div>
+            <div class="sdf"></div>
+            <div class="box box1">flexbox
+                flex-direction позволяет вращать главную ось.(column and row)
+                justify-content работает с главной осью(горизонтальная), то align-items работает с осью, 
+                перпендикулярной главной оси. само свойство применяется ко всем элементам и выравнивает их.
+                align-self позволяет выравнивать элементы по отдельности и задать им свою собственную позицию
+</div>
+            <div class="box box1">                
+                flex-grow:увеличение блоков чтобы они были одинаковой ширины и занимали всё пространство в флексбоксе(диве). т.к. если их 
+                применять ко всему флексбоксу то неважно какие значения чтобы они растянулись на всю ширинуб но если задать значение 
+                отдельному элементу в флексбоксе, то он будет занимать больше места, чем остальные, а остальные в это время будут уменьшаться 
+                чтобы вместился первый
+                flex-shrink аналогично только блоки уже уменьшаются и обычно юзают когда блоки не вмещаются в контейнер. Можно задать 
+                уменьшение отдельным блокам.
+                flex:0 (grow) 1 (shrink) auto (basis). сокращённая запись</div>
+        </div>
+    </body>
+</html>

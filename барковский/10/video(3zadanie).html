@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        /*создание флексбокса*/
+        .box1{background:rgb(187, 253, 187); margin:10px; width: 300px; height: 1100px;}/*flex-grow для увеличения блока по горизонтали; margin для отделения частей*/
+        .box2{background:rgb(187, 253, 187); margin:10px;width: 700px; height: 1100px;}
+        .container{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        }
+        /*всё*/
+
+        .vlo li{/*смещение списка чтобы он был около начала дива*/
+            left:-15px;top:0px;position:relative;
+        }
+
+
+        @media screen and (max-width: 560px){/*свойства при уменьшении размера*/
+            .net{
+            list-style-type: none;/*нету оформления для меню*/
+            text-align: left;
+        }
+
+        .vlo li{/*смещение списка чтобы он был в начале дива*/
+            left:10px;
+            top:0px;
+            position:relative;
+        }
+            ol>li{/*создание вылетающего списка*/
+                float: left;
+                width: 100px;
+                position: relative;
+            }
+            ol li a{
+                display: block;
+                text-decoration: none;
+                padding:5px 8px 5px 5px;
+            }
+            ol li .vlo{
+                display: none;
+                position: absolute;
+                background-color: rgb(104, 255, 197);
+                padding-left:15px;
+                top:20px;
+                left:5px;
+            }
+            ol li:hover .vlo{
+                display: block;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box1">
+                        <ol>
+                        <li style="list-style-type: none; left:-35px;top:-15px;position:relative;">Меню
+                        <ol class="vlo">
+                            <li>Youtube</li>
+                            <li>Kinopoisk</li>
+                            <li>z2.fm</li>
+                            <li>rutube</li>
+                        </li>
+                        </ol>
+                    </ol>
+            </div>
+            <div class="box2">
+                <label>А.С. Пушкин - Зимнее утро</label>
+                <audio controls>
+                    <source src="А.С. Пушкин - Зимнее утро.mp3" type="audio/ogg;">
+                </audio>
+                <br/>
+                <label>Эдуард Асадов - Пока мы живы</label>
+                <audio controls>
+                    <source src="Эдуард Асадов - Пока мы живы.mp3" type="audio/ogg;">
+                </audio>
+                <br/><br/>
+                <iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div><!--вместо # поставить ссылку с ютуба-->
+        </div>
+    </body>
+</html>

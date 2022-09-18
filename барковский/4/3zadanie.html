@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table
+	        {
+	        border-spacing:0;
+	        }
+	        td{
+	        height:50px;
+	        width:50px;
+	        }
+	        table tr:nth-child(even) td:nth-child(even)
+            {								
+	        background-color:white;					
+            } 
+        	table tr:nth-child(odd) td:nth-child(odd)   /* нечетные номера*/
+            {										
+	        background-color:white;					
+            }
+	        table tr:nth-child(odd) td:nth-child(even)  
+            {										
+	        background-color:black;					
+            }
+	        table tr:nth-child(even) td:nth-child(odd)  
+            {										
+	        background-color:black;					
+            }
+	        table tr:nth-child(n) td:nth-child(12) /*n счетчик автоматически 1,2...*/
+            {
+	        background-color:orange; 
+            }
+	        table tr:nth-child(n) td:nth-child(1)
+            {
+	        background-color:orange;
+            } 
+        	tr td:first-child
+            {
+	        width:30px;
+	        border:solid rgb(0, 0, 0); /*obvodka po bokam*/
+            }
+	        tr td:last-child
+            {
+	        width:30px;
+	        border:solid black;
+            }
+	        table tr:first-child td:nth-child(n) /*obvodka s verchu*/
+            {
+	        background-color:orange;
+	        height:30px;
+	        border:solid rgb(0, 0, 0);
+            }
+	        table tr:last-child td:nth-child(n)
+            {
+	        background-color:orange;
+	        height:30px;
+	        width:30px;
+	        border:solid black;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+            <tr>
+                <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            </tr>
+        </table>
+    </body>
+</html>

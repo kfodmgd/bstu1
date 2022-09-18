@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .grid{
+                display:grid;
+                grid-template-columns:150px 400px 300px;
+                grid-template-rows:200px 300px 100px;
+                grid-gap: 5px;
+                text-align: center;
+            }
+            .div1{
+                background-color: chartreuse;
+                grid-column-end: 1;
+                grid-column-start: 2;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            .div2{
+                background-color: chartreuse;
+                grid-column-end: 2;
+                grid-column-start: 4;
+                grid-row-start: 1;
+                grid-row-end: 1;
+            }
+            .div3{
+                background-color: chartreuse;
+            }
+            .div4{
+                background-color: chartreuse;
+                grid-column-end: 1;
+                grid-column-start: 4;
+                grid-row-start: 3;
+                grid-row-end: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="div1"><a href="../9/1zadanie.html">1 задание</a>
+                <br/>
+                <a href="../9/2zadanie true.html">2 задание</a>
+                <br/>
+                <a href="../9/3zadanie.html">3 задание</a></div>
+            <div class="div2">grid-верстка
+            </div>
+            <div class="div3">Для разделения контейнера-сетки на столбцы и строки используются свойства grid-template-columns, 
+                grid-template-rows и grid-template-areas.</div>
+            <div class="div3">Элементы сетки могут быть назначены непосредственно, чтобы занимать эти области, используя свойство grid-area.
+                Чтобы объединить ячейки сетки используются свойства grid-column-start(grid-column-end) и grid-row-start(grid-row-end), 
+                значениями которых указывается номер линии сетк. grid-gap-отступ между ячейками
+            </div>
+            <div class="div4">Система модульной верстки реализуется следующим образом:
+                1. Прикрепить CSS-файлы normalize.css и skeleton.css в head файла
+                2. Добавить контейнер div, который бдет основным и задавать всю сетку.
+                3. Добавить контейнеры div для строк, внутрь первого дива.
+                4. Добавить контейнеры div для колонок, внутрь первого дива.
+            ps в самом первом(основном) div будет задаваться количество строк и стобцов. Из-за этого, если у нас 4 div вложено в основной, а 
+        длин задано лишь 3, то последний будет написан в новой строке(просто астоматически перейдёт на новую строку)</div>
+        </div>
+    </body>
+</html>

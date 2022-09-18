@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Горизонтальное выпадающее меню</title>
+    <style>
+      #navbar ul{
+       display: none;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 30px;
+        text-align: center;
+        width:470px;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        display: block; 
+        padding: 6px;
+        width: 100px;
+        text-align: center;
+      }
+      #navbar ul li { float: none; }
+    </style>
+  </head>
+ 
+  <body>
+  
+    <ul id="navbar">
+      <li><a href="#">Контакты</a>
+        <ul>
+          <li><a href="#">Адрес</a></li>
+          <li><a href="#">Телефон</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

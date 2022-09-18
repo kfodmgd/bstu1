@@ -1,0 +1,38 @@
+.b2{
+    text-align: center;
+}
+.c1{
+    background-color: #FFC618;
+}
+.c2{
+    background-color: #d8816e;
+}
+
+
+/*.two, .second,.third{
+    float: left;
+    border:black solid 1px;
+}
+.two{
+    width: 500px;
+    height: 100px;
+}
+.second{
+    width: 249px;
+    height:25px;
+    background-color: #FFC618;
+}
+.third{
+    width: 249px;
+    height: 700px;
+    background-color: #d8816e;
+}
+.b1{
+    background-image: url("fit.png"); 
+    background-repeat:no-repeat;
+}
+.b2 ul li{
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+}*/

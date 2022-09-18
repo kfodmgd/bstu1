@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+      .box1{background:green;flex-grow: 1;}/*flex-grow для увеличения блока по горизонтали*/
+      .box2{background:blue;flex-grow: 3;}/*align-center для размещения элемента по центру флекса*/
+      .box3{background:red;}
+      .box4{background:magenta;}
+
+      .box{
+         font-size:35px;
+         padding:15px;
+         text-align: center;
+      }
+      .qwe {
+  flex-basis: 100%;
+  height: 10px;
+}
+      .container{
+         display:flex;
+         border:3px solid black;
+         margin: 0 -5px;
+         flex-wrap: wrap;
+      }
+    </style>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "box box1">One</div>
+            <div class = "qwe"> </div>
+            <div class = "box box2">two</div>
+            <div class = "box box2">three</div>
+            <div class = "box box2">four</div>
+        </div>
+    </body>
+</html>

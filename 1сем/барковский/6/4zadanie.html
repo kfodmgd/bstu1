@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        div{
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        #a{
+            background-image: linear-gradient(to bottom, blue , red);
+        }
+        #b{
+            background-image: repeating-linear-gradient(45deg, red 1px, red 8px,blue 8px, blue 16px);/* blue 20px, red 30px, blue 20px);*/
+        }
+        #c{
+            background-image: radial-gradient(yellow, green);
+        }
+        #d{
+            background-image: repeating-radial-gradient(green, green 6px,yellow 8px,yellow 13px);
+        }
+        #i{
+            background-image: radial-gradient(yellow,green,transparent),
+                               linear-gradient(to bottom, blue,purple);
+        }
+        #f{
+            background-image: linear-gradient(to right, yellow, green, transparent),
+                              linear-gradient(to bottom, black 20%, white 70%, blue 85%, purple 95%);
+        }
+        </style>
+    </head>
+    <body>
+        <div id="a"> </div>
+        <div id="b"> </div>
+        <div id="c"> </div>
+        <div id="d"> </div>
+        <div id="i"> </div>
+        <div id="f"> </div>
+    </body>
+</html>

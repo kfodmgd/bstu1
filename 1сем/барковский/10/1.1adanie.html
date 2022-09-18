@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+      .box1{background:green;flex-grow: 1; margin:10px;}/*flex-grow для увеличения блока по горизонтали*/
+
+      .box{
+         font-size:35px;
+         padding:15px;
+         width:100px;
+         text-align: center;
+      }
+      .container{
+         display:flex;
+         align-items:flex-start;
+         justify-content: space-between;
+
+      }
+      .sdf {
+      flex-basis: 100%;
+      }  
+      .container1{
+        display:flex;
+         border:3px solid black;
+         flex-direction:row;
+         flex-wrap:wrap;
+      }
+    </style>
+    <body>
+        <div class = "container">
+            <div class = "box box1">One</div>
+            </div>
+        <div class = "container1">
+            <div class = "box box1">two</div>
+            <div class = "box box1">three</div>
+            <div class = "box box1">four</div>
+            </div>
+        <div class = "container1">
+            <div class="box box1">flex</div>
+            <div class="box box1">flex</div>
+        </div>
+    </body>
+</html>

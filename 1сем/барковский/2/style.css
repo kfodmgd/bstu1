@@ -1,0 +1,23 @@
+h1,h2,h3{
+    color:Purple;
+    font-family:Monotype Corsiva;
+  }
+
+  /* 2 задание */
+  .pnk1{
+    color:crimson;
+    font-family:'Times New Roman';
+    font-size:18pt;
+  }
+
+  .pnk2{
+    color:yellow;
+    font-family:'Times New Roman';
+    font-size:20pt;
+  }
+
+  .pnk3{
+    color:green;
+    font-family:'Times New Roman';
+    font-size:22pt;
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        @keyframes ani {/*процесс анимации(исчезания и появления картинки)*/
+        0% { opacity: 0; }
+        11.11% { opacity: 1; }
+        33.33% { opacity: 1; }
+        44.44% { opacity: 0; }
+        100% { opacity: 0; }
+        }
+        .anim img { transition:1s linear;
+            position:absolute; 
+            width: 100px; 
+            height: 100px; 
+            opacity:0; 
+            animation-name: ani; 
+            animation-duration: 5s; /* скорость появления картинки*/ 
+        }
+        .anim img:nth-child(1) { 
+            animation-delay: 0s; /*время через которое появляется картинка*/
+        }
+        .anim img:nth-child(2) { 
+            animation-delay: 2s; 
+        }
+        .anim img:nth-child(3) { 
+            animation-delay: 4s; 
+        }
+        .anim img:nth-child(4) { 
+            animation-delay: 6s; 
+        }
+        .anim img:nth-child(5) { 
+            animation-delay: 8s; 
+        }
+        @keyframes zad6{/*6zadanie*/
+                0%{opacity: 0;}
+                25%{opacity: 0.4;}
+                50%{opacity: 0.8;}
+                75%{opacity:0.4;}
+                100%{opacity:0;}
+            }
+            label{
+                position:absolute;
+                animation-name:zad6;
+                animation-duration:5s;
+                animation-direction: normal;
+                animation-iteration-count: infinite;
+                margin-top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <label>4zadanie</label>
+        <div class="anim">
+        <img src="star 53.jpg">
+        <img src="kauga.jpg">
+        <img src="odyv.jpg">
+        <img src="ruanskaya.jpg">
+        <img src="saksonskaya.jpg">
+        
+        </div>
+    </body>
+</html>

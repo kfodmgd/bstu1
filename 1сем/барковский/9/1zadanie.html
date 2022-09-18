@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .grid{
+                display:grid;
+                grid-template-columns:340px 340px 340px;
+                grid-template-rows:40px 40px 40px;
+                grid-gap: 5px;
+                text-align: center;
+                font-size: 30px;
+                margin-left: 55px;
+            }
+            .div1{
+                /*background-color: aqua;*/
+                grid-column-start: 1;
+                grid-column-end: 4;
+                border:3px solid black;               
+            }
+            .div2{
+               /* background-color:blue;*/
+                border:3px solid black;
+            }
+
+            .grid1{
+                display:grid;
+                grid-template-columns:70px 260px 260px 260px 260px 70px;
+                grid-template-rows:300px 300px 300px 220px 220px 300px;
+                grid-gap: 5px;
+                text-align: center;
+                font-size: 30px;
+            }
+            .div3{
+                /*background-color: blueviolet;*/
+                border:3px solid black;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                
+            }
+            .div31{
+                /*background-color: blueviolet;*/
+                grid-row-start: 1;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 1;
+                border:3px solid black;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                font-size: 52px;
+            }
+
+ /*////////////////////////3rd*/
+            .div5{
+                /*background-color: brown;*/
+                border:3px solid black;
+
+            }
+            .div6{
+                /*background-color: cadetblue;*/
+                grid-row-start: 2;/*номер строки с которой начинаем, а ниже заканчиваем объединять*/
+                grid-row-end: 2;
+                grid-column-start: 5;/*номер столбйа с которого начинаем, а ниже заканчиваем объединять*/
+                grid-column-end: 6;
+                border:3px solid black;
+            }
+            .div7{
+                /*background-color: crimson;*/
+                grid-row-start: 1;
+                grid-row-end: 3;
+                border:3px solid black;
+            }
+            .div8{
+                /*background-color: crimson;*/
+                grid-row-start: 1;
+                grid-row-end: 3;
+                border:3px solid black;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                font-size: 52px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="div1">HTML&CSS</div>
+            <div class="div2">What is it</div>
+            <div class="div2">Some information</div>
+            <div class="div2">Helpfull</div>
+        </div>
+
+
+        <div class="grid1">
+            <div class="div31">css3</div>
+            <div class="div3">Cascading Style Sheets (CSS) is a language that is used to illustrate the look, style, and format of a document written in any markup 
+                language. In simple words, it is used to style and organize the layout of Web pages. At the end it's very usefull and interesting to learn.</div>
+            <div class="div3">Before learning CSS3, we should be familiar with the basics of HTML. It helps in describing the structure of our content, and 
+                CSS helps in styling and placing it. It is recommended to learn HTML and CSS simultaneously because HTML is much more 
+                interesting to learn when we apply CSS along with it.</div>
+
+            <div class="div7">HTML, or HyperText Markup Language, is the language used for web documents. It is not a programming language, but rather a language that 
+                identifies the meaning, purpose, and structure of text within a document. This language can help you to styling your web-page, but I recomend you to use 
+                CSS for styling.
+                </div>
+            <div class="div5">Why you need to use HTML5? Advantages of using the latest verion for your own web-page.</div>
+            <div class="div8">html5</div>
+            <div class="div6">The most straight-forward answer to that question is simply that it is the current, “right” version of the language and easely to write code.
+                </div>
+    </body>
+</html>

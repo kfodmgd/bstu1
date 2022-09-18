@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#mobile {
+display: none;
+}
+.main-menu {
+display: none;
+padding: 0;
+margin: 0;
+}
+.main-menu li {
+font-size: 16px;
+font-weight: 700;
+display: block;
+width: 100%;
+}
+
+.main-menu div {
+display: block;
+border-bottom: 1px solid #21c996;
+color: rgb(81, 233, 81);
+
+padding: .5em;
+text-decoration: none;
+}
+
+
+.button {
+text-align: center;
+display: block;
+cursor: pointer;/*курсор изменяется на палец-показатель что кликабельно*/
+font-size: 16px;
+font-weight: 700;
+padding: 10px 20px;
+background-color: #7272f0;
+color: #fff;
+width: 20%;
+}
+
+#mobile:checked + nav .main-menu {
+/* проверка чекбокса если он активен то принимает свойства блочного элемента*//*проверка на нажатие*/
+display: block;
+}
+
+@media screen and (min-width: 560px) {/*когда мин то применяеются свойства ниже для ширины которыя меньше указаннофй*/
+.button {
+display: none;
+}
+.main-menu {/*появление меню в виде блочного элемента*/
+display: block;
+margin: 0 auto;
+padding: 0 15%;
+background-color: #7272f0;
+height: 60px;
+}
+
+.main-menu li {
+width: calc(100% / 4);/*разделение всего пространства на 4 части поровну чтобы они не перекрывали друг друга и заполнили всё пространство*/
+text-align: center;
+display: inline-block;/* теги <li> расположены в ряд */
+margin-right: -4px;
+padding-top: 10px;
+}
+.main-menu div {
+display: inline-block;
+margin-right: -4px;
+font-size: 18px;
+font-weight: 700;
+background-color: #7272f0;
+text-decoration: none;
+color: #fff;
+text-transform: capitalize;
+border-bottom: 0;
+}
+}
+</style>
+</head>
+<body>
+<input type="checkbox" id="mobile" />
+<nav role="navigation"><!-- навигация -->
+<label for="mobile" class="button" onclick>Menu</label>
+<ul class="main-menu"><!-- пункты меню -->
+<li><div>Главная</div></li>
+<li><div>Основная</div></li>
+<li><div>Блоки</div></li>
+<li><div>Уведомления</div></li>
+</ul>
+</nav>
+</body>
+</html>

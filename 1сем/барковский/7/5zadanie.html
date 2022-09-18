@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @keyframes goriz{
+                0% { left: 0; top: 0; }
+                50% { left: 200px; top: 0; }
+                100% { left: 0; top: 0; }
+            }
+            @keyframes vert{
+                0%{left:250px;top:0; }
+                50%{left:250px;top:200px;}
+                100%{left:250px;top:0;}
+            }
+            @keyframes kriv{
+                0%{top:250px;left:0;}
+                25%{top:450px;left:100px;}
+                50%{top:300px;left:200px;}
+                75%{top:0px;left:400px;}
+                100%{top:250px;left:0;}
+            }
+            @keyframes sq{
+                0% { left: 0; top: 500px; }
+                25% { left: 200px; top: 500px; }
+                50% { left: 200px; top: 700px; }
+                75% { left: 0; top: 700px; }
+                100% { left: 0; top: 500px; }
+            }
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            .o1{
+                position: absolute;
+                animation-name: goriz;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            .o2{
+                position: absolute;
+                animation-name: vert;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            .o3{
+                position: absolute;
+                animation-name:kriv;
+                animation-duration:10s;
+                animation-iteration-count:infinite;
+            }
+            .o4{
+                position: absolute;
+                animation-name: sq;
+                animation-duration:5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes zad6{/*6zadanie*/
+                0%{opacity: 0;}
+                25%{opacity: 0.4;}
+                50%{opacity: 0.8;}
+                75%{opacity:0.4;}
+                100%{opacity:0;}
+            }
+            label{
+                position:absolute;
+                animation-name:zad6;
+                animation-duration:5s;
+                animation-direction: normal;
+                animation-iteration-count: infinite;
+                margin-top: 100px;
+            }
+        </style>    
+    </head>
+    <body>
+        <label>5zadanie</label>
+        <img class="o1" src="ijo;zdfjdfkjf.jpg">
+        <img class="o2" src="ijo;zdfjdfkjf.jpg">
+        <img class="o3" src="ijo;zdfjdfkjf.jpg">
+        <img class="o4" src="ijo;zdfjdfkjf.jpg">
+    </body>
+</html>

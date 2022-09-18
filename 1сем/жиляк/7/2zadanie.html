@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            </select>
+            <br/>
+            <input type="checkbox" id="ch1" value="История">История
+            <br/>
+            <input type="checkbox" id="ch2" value="Математика">Математика
+            <br/>
+            <input type="checkbox" id="ch3" value="Английский">Английский
+            <br/>
+            <input type="checkbox" id="ch4" value="Русский">Русский
+            <br/>
+            <input type="checkbox" id="ch5" value="Физика">Физика
+            <br/>
+            <input type="checkbox" id="ch6" value="Информатика">Информатика
+            <br/>
+            <input type="checkbox" id="ch7" value="Литература">Литература
+            <br/>
+            <input type="checkbox" id="ch8" value="Химия">Химия
+            <br/>
+            <br/>
+            <button type="button" onclick="zapr()">Напечатать</button>
+            <br/>
+            <select id="sel"></select>
+            <script>
+                "use strict"
+                function zapr() {  
+            let l1=document.getElementById("ch1");//проверка чекбоксов
+            let l2=document.getElementById("ch2");
+            let l3=document.getElementById("ch3");
+            let l4=document.getElementById("ch4");
+            let l5=document.getElementById("ch5");
+            let l6=document.getElementById("ch6");
+            let l7=document.getElementById("ch7");
+            let l8=document.getElementById("ch8");
+            if(l1.checked==true){
+                let bx1=document.getElementById("ch1").value;
+                    let t1=document.createElement("option");
+                    t1.innerHTML=bx1;
+                    document.getElementById("sel").appendChild(t1);
+            }
+            if(l2.checked==true){
+                let bx2=document.getElementById("ch2").value;
+                    let t2=document.createElement("option");
+                    t2.innerHTML=bx2;
+                    document.getElementById("sel").appendChild(t2);
+            }
+            if(l3.checked==true){
+                let bx3=document.getElementById("ch3").value;
+                    let t3=document.createElement("option");
+                    t3.innerHTML=bx3;
+                    document.getElementById("sel").appendChild(t3);
+            }
+            if(l4.checked==true){
+                let bx4=document.getElementById("ch4").value;
+                    let t4=document.createElement("option");
+                    t4.innerHTML=bx4;
+                    document.getElementById("sel").appendChild(t4);
+            }
+            if(l5.checked==true){
+                let bx5=document.getElementById("ch5").value;
+                    let t5=document.createElement("option");
+                    t5.innerHTML=bx5;
+                    document.getElementById("sel").appendChild(t5);
+            }
+            if(l6.checked==true){
+                let bx6=document.getElementById("ch6").value;
+                    let t6=document.createElement("option");
+                    t6.innerHTML=bx6;
+                    document.getElementById("sel").appendChild(t6);
+            }
+            if(l7.checked==true){
+                let bx7=document.getElementById("ch7").value;
+                    let t7=document.createElement("option");
+                    t7.innerHTML=bx7;
+                    document.getElementById("sel").appendChild(t7);
+            }
+            if(l8.checked==true){
+                let bx8=document.getElementById("ch8").value;
+                    let t8=document.createElement("option");
+                    t8.innerHTML=bx8;
+                    document.getElementById("sel").appendChild(t8);
+            }
+                }
+            </script>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+</head>
+<script type='text/javascript'>
+$(document).ready(function(){
+
+  $("#el1").click(function(){
+    $(this).css("font-size","1.4em");
+  });
+  $("#el2").mouseover(function(){
+    //$(this).css("font-size","1.4em");
+    $(this).css("color","red");
+  });
+
+});
+</script>
+<body>
+<p id="el1"> Щелкните на меня один раз.</p>
+<p id="el2"> Щелкните на меня два раза.</p>
+</body>
+</html>
+
+<!--<html>
+    <head>
+<script scr="jquery-3.6.0.js"></script>
+    </head>
+    <body>
+        <div id="ex">qwerty</div>
+        <script>
+            $(document).ready(function(){
+
+                $("#ex").onmouseover(function(){$(this).css("color","red")});
+                });
+
+                
+
+/*$("div").mouseover(function(){$("div").css("color","green")});
+$("div").mouseout(function(){$("div").css("color","black")});
+});*/
+            </script>
+    </body>
+</html>-->

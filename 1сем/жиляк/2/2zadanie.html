@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var a;
+            var b;
+            a=prompt("Введите первое число");
+            b=prompt("Введите второе число");
+            document.write("<table border=1>")
+            for (var i=1;i<=a;i++) {
+                document.write("<tr>");
+                document.write("<td>"+i+"</td>");
+                for (var j=2;j<=b;j++){
+                    document.write("<td>"+i*j+"</td>");
+                }
+                document.write("</tr>");
+            }
+            document.write("</table>");
+        </script>
+    </body>
+</html>

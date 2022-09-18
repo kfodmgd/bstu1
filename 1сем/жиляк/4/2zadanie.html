@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            "use strict"
+            function Student(name, lname, fiz, mat, inf){
+                this.name=name;
+                this.lname=lname;
+                this.fiz=fiz;
+                this.mat=mat;
+                this.inf=inf;
+                this.sr_ball=function sr_ball(sr){
+                    sr=(this.mat+this.fiz+this.inf)/3;
+                    document.write(this.name+" "+this.lname+" "+sr+"<br\>");
+                }
+            }
+            let ch1=new Student("Елизавета", "Быско",5,8,7);
+            ch1.sr_ball();
+
+            let ch2=new Student("Максим", "Зыбайло",6,8,10);
+            ch2.sr_ball();
+
+            let ch3=new Student("Антон", "Постоялко",9,8,6);
+            ch3.sr_ball();
+
+            //добавление свойства
+            Student.prototype.age=this.age
+            ch1.age=16
+            ch2.age=18
+            ch3.age=17
+            document.write(ch1.age+" возраст первого студента "+ch2.age+" второго "+ch3.age+" третьего.")
+        </script>
+    </body>
+</html>

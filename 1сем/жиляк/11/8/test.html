@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Смена картинок</title>
+    <script language="javascript">
+    function imgsrc() {
+        var i=0;
+        var image=document.getElementById("image");
+        // Добавьте свои картинки в массив через запятую
+        var imgs=new Array("ruanskaya.jpg","star 53.jpg");
+        
+            i++;
+            image.src = imgs[i];
+        }
+    </script>
+</head>
+<body>
+    <img id="image" src="ruanskaya.jpg" onClick="imgsrc();">
+</body>
+</html>

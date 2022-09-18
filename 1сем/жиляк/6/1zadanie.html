@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            "use strict"
+	    let openedWindow;
+	    function ok1() {
+	    openedWindow = window.open('chrom://newtab')
+        openedWindow.alert("Окно с сайтом для дополнительно материала")
+	    }
+	    function ok2() {
+	    openedWindow.close()
+        openedWindow.alert("Закрытие окна")
+	    }
+        </script>
+        <input type='button' value='Добавить окно' onclick='ok1()' />
+        <input type='button' value='Удалить окно' onclick='ok2()' />
+    </body>
+</html>

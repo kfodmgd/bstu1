@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+    </head>
+            <script type='text/javascript'>
+            $(document).ready(function(){
+
+                $("#ex").mouseover(function(){
+                $(this).css("color","red");
+                });
+                $("#ex").mouseleave(function(){
+                    $(this).css("color","purple");
+                });
+
+                $("#za2").click(function(){
+                    $(this).css("font-size","12px");
+                });
+
+                $("#image").click(function img(){//смена картинки
+                    let i=0;
+                    let image=document.getElementById("image");
+                    let im=new Array("ruanskaya.jpg","star 53.jpg");
+        
+                    i++;
+                    image.src = im[i];
+                })
+
+                $("#inag").click(function st(){//замена текста на картинку
+                    const pic="<img src='star 53.jpg'>"
+                    inag.innerHTML=pic;
+                })
+
+                $("#odu").mouseover(function(){
+                    $(this).css("width","1000px");
+                })
+                $("#odu").mouseleave(function(){
+                    $(this).css("width","535px")
+                })
+                
+                $("#abz").dblclick(function(){
+                    $(this).css("border","double")
+                })
+            });
+            </script>
+    <body>
+        <div id="ex">qwerty</div>
+        <div style="font-size: 20px;" id="za2">asdfg</div>
+        <img src="ruanskaya.jpg" id="image" onclick="img()">
+        <div id="inag">123456</div>
+        <img src="odyv.jpg" id="odu">
+        <br/>
+        <br/>
+        <p id="abz">Ducks and geese don’t see color the way we do.see reds, greens, yellows, and blues more vibrantly–thanks to their retinas–plus an 
+            extra set of cones allows them to see ultraviolet radiation. This gives them exceptional light sensitivity; as a result, shine and glare 
+            are the duck hunter’s enemy. Whether it’s a blued shotgun receiver or a pale, exposed face, waterfowl are adept at spotting unnatural 
+            reflection.</p>
+
+    </body>
+</html>

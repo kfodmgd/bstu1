@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button,select{
+  height: 2em;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .25em .75em;
+  text-align: center;
+}
+
+select{
+  padding: .25em .5em;
+}

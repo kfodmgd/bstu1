@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: MintCream;
+}
+.one_good {
+  display: flex;
+  margin: 30px 100px;
+  padding: 0;
+}
+.one_good img {
+  height: 200px;
+  margin-right: 10px;
+}
+.catalog .text {
+  margin: 0;
+  padding: 0;
+}
+.sorts {
+  margin: 20px 100px;
+  display: inline-block;
+}
+.sorts button {
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  transition: all 0.3s;
+}
+.sorts button:hover {
+  cursor: pointer;
+  background-color: LemonChiffon;
+}
+.discount .new{
+  background-color: Tomato;
+}
+.discount .minus{
+  width: 160px;
+}
+.discount h2 {
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  background-color: LightSalmon;
+  text-align: center;
+}
+.discount h2 + h2 {
+  margin: 7px;
+}
+.prices {
+  display: flex;
+}
+.prices h3 {
+  color: rgb(83, 83, 83);
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.search {
+  margin: 20px 0 50px 300px;
+}
+.search input[type="search"] {
+  padding-left: 10px;
+  height: 30px;
+  width: 200px;
+}

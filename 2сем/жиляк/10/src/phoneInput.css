@@ -1,0 +1,26 @@
+li {
+  list-style: none;
+}
+li:hover {
+  background: rgb(235, 233, 233);
+}
+ul input[type="radio"] {
+  display: none;
+}
+ul {
+  border: 1px solid;
+  width: 158px;
+  margin-top: 3px;
+  margin-left: 30px;
+}
+.phoneInput img {
+  height: 10px;
+  width: 20px;
+  margin-bottom: -3px
+}
+.phoneInput li img {
+  margin: 0px 3px;
+}
+.numberField img, .numberField input{
+  display: inline;
+}

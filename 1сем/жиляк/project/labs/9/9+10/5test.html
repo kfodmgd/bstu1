@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .menu-item {
+            border: 2px solid red;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+        }
+        .menu-item .submenu {
+            height: 50px;
+            width: 150px;
+            background: greenyellow;
+            display: none;
+            position: absolute;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <div class="menu-item">
+                Меню 1
+                <div class="submenu">
+                    Подменю
+                </div>
+            </div>
+            <div class="menu-item">
+                Меню 2
+                <div class="submenu">
+                    Подменю
+                </div>
+            </div>
+            <div class="menu-item">
+                Меню 3
+                <div class="submenu">
+                    Подменю
+                </div>
+            </div>
+        </div>
+        <script>
+            
+document.getElementById('nav').onmouseover= function(event) {
+    var target = event.target; // где был клик?
+    if (target.className == 'menu-item') {
+        var s=target.getElementsByClassName('submenu');
+        closeMenu();
+        s[0].style.display='block';
+    }
+}
+document.onmousemove=function(event) {
+    var target = event.target; // где был клик?
+    console.log(event.target);
+    if (target.className!='menu-item' && target.className!='submenu') {
+        closeMenu();
+    }
+}
+function closeMenu(){
+    var menu=document.getElementById('nav');
+    var subm=document.getElementsByClassName('submenu');
+    for (var i=0; i<subm.length; i++) {
+        subm[i].style.display="none";
+    }
+}
+        </script>
+    </body>
+</html>

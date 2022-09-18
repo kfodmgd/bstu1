@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img src="odyv.jpg" id="imag" style="position: absolute; width: 100px; height: 100px;">
+
+        <script>
+            var curPosX = 0;//начальная позиция картинки
+            var curPosY=0;
+            var interval;
+            var imgwidth=100;//определение ширины для того чтобы остановить картинку когда та дойдёт до конца экрана
+            var imgheight=100;
+            var n = 10; // На сколько двигать за раз
+            var width = document.documentElement.clientWidth; // Ширина экрана
+            var height=document.documentElement.clientWidth;
+            var imag = document.getElementById("imag");
+
+                function move() {
+                imag.style.left = (curPosX += n*2-5) + "px";//позиция картинки каждый раз на 10 изменяется
+                imag.style.top=(curPosY+=(n-4)*2)+"px";
+                //var idjnove = setInterval (imag , 200);
+                if ((curPosX >= 200) || (curPosY>=200)) {//когда доходит до конца экрана картинка останавливается
+                    //curPosY=0;
+                    //curPosX=0;
+                    
+                    imag.style.top=(curPosY-=n*2)+"px";
+                    imag.style.left=(curPosX+=n-4)+"px";
+                    if(curPosY<=0){
+                        imag.style.top=(curPosY=0)+"px";
+                        imag.style.right=(curPosX=curPosX-100)+"px";
+                        if(curPosX<=0){
+                            clearInterval(interval);
+                        }   
+                    }
+                }
+            }
+
+
+
+                //if ((curPosX >= 200 || (curPosY>=200))) {//когда доходит до конца экрана картинка останавливается
+                    //curPosY=0;
+                    //curPosX=0;
+                    
+                //    imag.style.top=(curPosY-=n*2)+"px";
+                //    imag.style.left=(curPosX+=n-4)+"px";
+                //    if(curPosY<=0){
+                //        imag.style.top=(curPosY=0)+"px";
+                //        imag.style.right=(curPosX=curPosX-100)+"px";
+                //        if(curPosX<=0){
+                //            clearInterval(interval);
+                //        }   
+                //    }
+                //}
+            //}
+           // interval = setInterval(move, 100);//100-время движения, чем больше тем медленнее, 1-функция движения
+        </script>
+    </body>
+</html>

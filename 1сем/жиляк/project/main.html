@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet"> 
+    </head>
+    <body onload="start()">
+        <ul class="nav">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="test.html">Portfolio</a></li>
+            <li><a href="#anchor">Сontacts</a></li>
+        </ul>
+        <label class="firstLine">Portfolio</label>
+        <label class="secondLine">Main languages:JS and jQuery</label>
+        <label class="secondLine">Support languages:HTML and CSS</label>
+
+        <div class="anotherFlex">
+
+            <div class="links">
+            <ul class="link"> What are you looking for?
+                <li><a href="test.html">Portfolio</a></li>
+                <li><a href="https://new.belstu.by/">University</a></li>
+                <li><a href="#anchor">Information</a></li>
+            </ul>
+            </div>
+            <div class="links">
+                <canvas id="canvas" width="200" height="650"></canvas>
+            </div>
+        </div>
+
+        <!--<div>
+            <div class="circul"></div>
+        </div>-->
+        <footer>
+            <div class="bottom">
+                <a name="anchor"></a><div class="under">&#169;qwe<br/> &#9993; email:qwe@gmail.com;</div>
+                <div class="under">Made with css, html for JS and jQuery Portfolio</div>
+            </div>
+        </footer>
+
+
+
+
+<!--js there because I can-->
+<script>
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var width = ctx.canvas.width;
+var height = ctx.canvas.height;
+var step = -4;
+
+function start() {
+  window.requestAnimationFrame(start);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  drawWave(45,"sin");
+  drawWave(25,"cos");
+  drawWave(15,"sin");
+  
+  step += 5; 
+}
+  
+function drawWave(amplitude,trig){
+  // trig is the trigonometric function to be used: sin or cos
+  ctx.beginPath();
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = "rgb(66,44,255)";
+
+  var x = 0;
+  var y = 0;
+  //var amplitude = 10;
+  var frequency = height / (2 * Math.PI);
+  ctx.save();
+  ctx.translate(-amplitude * Math[trig](step / frequency), 0);
+  while (y < height) {
+    x = width / 2 + amplitude * Math[trig]((y + step) / frequency);
+    ctx.lineTo(x, y);
+    y++;
+  }
+
+  ctx.stroke();
+  ctx.restore();
+}
+        </script>
+    </body>
+</html>

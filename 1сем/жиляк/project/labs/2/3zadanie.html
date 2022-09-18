@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+        //document.write("Площадь круга "+" Длина окружности"+"<br/>"+"<br/>");
+        a=prompt("Ввелите первое число");
+        b=prompt("Введите второе число");
+        a=Number(a);
+        b=Number(b);
+        k=a;
+        document.write("<table border=1>");
+        document.write("<td>"+"Введённая величина"+"</td>");
+        document.write("<td>"+"Площадь круга"+"</td>");
+        document.write("<td>"+"Длина окружности"+"</td>");
+        if (a<b) {
+            do {
+                a=a+0.3;
+                document.write("<tr>");
+                document.write("<td>"+"a="+a+"</td>");
+                document.write("<td>"+"R="+Math.PI*a*a+"</td>");
+                document.write("<td>"+"C="+Math.PI*2*a+"</td>");
+                document.write("</tr>");
+            } while (a<=b);
+        } else if (a>b){
+            do {
+                a=a-0.3;
+                document.write("<tr>");
+                document.write("<td>"+"a="+a+"</td>");
+                document.write("<td>"+"R="+Math.PI*a*a+"</td>");
+                document.write("<td>"+"C="+Math.PI*2*a+"</td>");
+                document.write("</tr>");
+            } while (a>=b);
+        } else if(a==b){
+            document.write(Math.PI*a*a+"   "+Math.PI*2*a+"   "+"<br/>");
+        }
+        document.write("</table>");
+        document.write("<br/>"+"Радиус окружности изменяется от "+k+" c шагом 0,3 до "+b);
+        </script>
+    </body>
+</html>

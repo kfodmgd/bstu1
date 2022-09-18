@@ -1,0 +1,23 @@
+input{
+    display: block;
+    width: 70px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+/*menu with discription*/
+.tip{
+    display: block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .cheat1:hover::after {
+    width: 500px;
+    height: 50px;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1%; top: 30%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-size: 15px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+   }

@@ -1,0 +1,100 @@
+function zadanie1(){
+    let x1=prompt("Введите свой логин:", "логин");
+    alert("Здравствуйте, "+x1);
+    lets1=prompt("Хотите что-то узнать?");
+    if (s1=="да") {
+    alert("Можете воспользоваться нашим сайтом");
+    } else {
+    alert("Очень жаль");
+    }
+}
+function zadanie2(){
+let x2=prompt("Введите первое число ");
+let y2=prompt("введите второе число ");
+x2=Number(x2);
+y2=Number(y2);
+alert(x2+y2);
+let x21=prompt("Введите первую строку ");
+let y21=prompt("введите вторую строку ");
+alert(x21+y21);
+let x22=prompt("Введите первое число ");
+let y22=prompt("введите вторую строку ");
+x22=Number(x22);
+alert(x22+y22);
+let x23=prompt("Введите первую строку ");
+let y23=prompt("введите второе число ");
+y23=Number(y23);
+k=x23+y23;
+alert(k);
+document.write("Результатом сложения строки и числа всегда будет "+typeof(k));
+}
+function zadanie3(){
+    x3=prompt("Введите первое число");
+    let y3=prompt("Введте второе число");
+    let ost1=((44*x3+12*y3)/5-x3);
+    let ost2=((52*y3-65*y3)/(x3+y3)-x3);
+    k2=ost1%ost2;
+    alert("Остаток от деления одного выражения на другое " +k2);
+    document.write("Остаток от деления одного выражения на другое "+k2)
+}
+function zadanie4(){
+    let x4;
+    x4=prompt("Введите число");
+    if ((x4>=40) && (x4%5==0) && (x4<100)){
+        alert("Введённое число больше или равно 40, меньше 100 и делится на 5 без остатка-значит оно правилонье");
+    } else {
+        alert("Введённое число меньше 40, больше 100 и делится на 5 с остатком-значит оно неправилонье");
+    }
+}
+function zadanie5(){
+    let x5;
+x5=prompt("Введите первое число");
+let y5;
+y5=prompt("введите второе число");
+x5=Number(x5);
+y5=Number(y5);
+if (x5>y5){
+    alert("Первое число больше второго");
+} else if (x5<y5) {
+        alert("Первое число меньше второго");
+    } else if(x5==y5){
+            alert("Числа равны");
+        }
+}
+function zadanie6(){
+    let x6;
+    let x12=new Date();
+    alert(x12.getDay());
+    x6=prompt("Введите номер дня недели ");
+    x6=Number(x6);
+    switch(x6) {
+        case 1: 
+            document.write("Понедельник"); 
+            break;
+        case 2: 
+            document.write("Вторник"); 
+            break;
+        case 3: 
+            document.write("Среда"); 
+            break;
+        case 4: 
+            document.write("Четверг"); 
+            break;
+        case 5: 
+            document.write("Пятница"); 
+            break;
+        case 6: 
+            document.write("Суббота"); 
+            break;
+        case 7: 
+            document.write("Воскресенье"); 
+            break;
+    }
+}
+function zadanie7(){
+    try{ 
+    x()
+    }catch(e){
+        alert(e)
+    } //x  не объявлено4
+}

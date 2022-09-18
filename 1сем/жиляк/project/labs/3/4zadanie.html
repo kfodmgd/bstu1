@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var date=new Date();
+            document.write("<table border=1>")
+                document.write("<tr>"+"<td>"+"Год"+"</td>"+"<td>"+date.getFullYear()+"</td>"+"</tr>");
+                document.write("<tr>"+"<td>"+"Месяц"+"</td>"+"<td>"+date.getMonth()+"</td>"+"</tr>"+"</tr>");
+                document.write("<tr>"+"<td>"+"День"+"</td>"+"<td>"+date.getDate()+"</td>"+"</tr>");
+                document.write("<tr>"+"<td>"+"Час"+"</td>"+"<td>"+date.getHours()+"</td>"+"</tr>");
+                document.write("<tr>"+"<td>"+"Минуты"+"</td>"+"<td>"+date.getMinutes()+"</td>"+"</tr>");
+                document.write("<tr>"+"<td>"+"Секунды"+"</td>"+"<td>"+date.getSeconds()+"</td>"+"</tr>");
+            document.write("</table>");
+        </script>
+    </body>
+</html>

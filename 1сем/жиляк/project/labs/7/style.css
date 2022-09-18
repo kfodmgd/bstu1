@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: rgb(3, 20, 41);
+}
+/*navigation*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;/*управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
+    background-color: #333;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    color: silver;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.nav li a:hover{
+    background-color: #111;
+}
+/*end of navigation*/
+
+/*bottom*/
+.bottom{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    background-color: #333;
+ }
+ .under{
+    width:759px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: silver;
+ }
+ .bottom{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+ }
+
+
+ 
+
+
+
+/*blocks*/
+.tip{
+    display: block;
+    width: 70px;
+    height: 25px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px rgb( 4, 30, 66) inset, 0 0 0 0 rgb( 4, 30, 66);
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .20s ease-out;
+    font-size: 18px;
+}
+.tip:hover{
+    box-shadow: 0 0 10px 0 rgb(31, 48, 94) inset, 0 0 10px 4px rgb(31, 48, 94);
+    color: white;
+    font-size: 18px;
+}
+input{
+    border-style:none;
+    background-color: transparent;
+    color:rgb(195, 195, 233);
+}
+input:hover{
+    background-color: rgb(3, 20, 41);
+}
+/*menu with discription*/
+.tip{
+    display: block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .tip:hover::after {
+    width: 500px;
+    height: 170px;
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 100px; top: 30%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(31, 48, 94,0.9); /* Полупрозрачный цвет фона */
+    font-size: 15px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+   }

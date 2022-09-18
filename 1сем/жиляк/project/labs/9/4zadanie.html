@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                $("#nap").click(function zapr(){
+                    const ctx = canvas.getContext('2d');//определяем плоскость и пространство
+                if (document.getElementById('f1').checked) {//checked проверяет нажата ли кнопка
+                    for (let i = -100; i <= 100; i += 0.1) {
+                        ctx.fillStyle = document.test.svet.value;
+                        ctx.fillRect(200+i*10,250-Math.pow(i,2),1,1);//первое значение за сдвиг по горизонтали, второе-сдвиг по вертикали
+                    //тертье-толщина по горизонтали, а второе-толщина по вертикали +во втором задаём функцию
+                    }
+                }
+                if (document.getElementById('f2').checked) {
+                    for (let i = -100; i <= 100; i += 0.1) {
+                        ctx.fillStyle = document.test.svet.value;
+                        ctx.fillRect(200+i*10,250-Math.pow(i,3),1,1);
+                    }
+                }
+                if (document.getElementById('f3').checked) {
+                    for (let i = -100; i <= 100; i += 0.1) {
+                        ctx.fillStyle = document.test.svet.value;
+                        ctx.fillRect(200+i*10,100-Math.sin(i),1,1);
+                    }
+                }
+                if (document.getElementById('f4').checked) {
+                    for (let i = -100; i <= 100; i += 0.1) {
+                        ctx.fillStyle = document.test.svet.value;
+                        ctx.fillRect(200+i*10,100-Math.cos(i),1,1);
+                    }
+                }
+            })
+        
+            $("#ste").click(function sti(){
+                const ctx = canvas.getContext('2d');
+                    for (let i = -100; i <= 100; i += 0.1) {
+                        ctx.fillStyle = "white";
+                        ctx.fillRect(0, 0, 400, 500);//cтираем   
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <form name="test">
+        Выберите функцию
+        <input type="radio" id="f1" name="abc">y=x^2
+        <input type="radio" id="f2" name="abc">y=x^3
+        <input type="radio" id="f3" name="abc">y=sin(x)
+        <input type="radio" id="f4" name="abc">y=cos(x)
+        <button type="button" id="nap">Напечатать</button>    
+        <button type="button" id="ste">Стереть</button>
+        <canvas id="canvas" width=400px height=500px></canvas>
+        <br/>
+        Выберите цвет<select name="svet">
+            <option>red</option>
+            <option>blue</option>
+            <option>black</option>
+            <option>yellow</option>
+            <option>green</option>
+            <option>violet</option>
+            <option>brown</option>
+        </form>
+        </select>
+    </body>
+</html>

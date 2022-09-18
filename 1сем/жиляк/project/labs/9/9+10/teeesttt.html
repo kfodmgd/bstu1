@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="move()">down</button>
+        <button onclick="move1()">up</button>
+        <img src="odyv.jpg" id="imag" style="position: absolute; width: 100px; height: 100px;">
+
+        <script>
+            var curPosY = 0;//начальная позиция картинки
+            //var x=15;
+            //var y=0;
+            //var interval;
+            var imgwidth=100;//определение ширины для того чтобы остановить картинку когда та дойдёт до конца экрана
+            var n = 10; // На сколько двигать за раз
+            var width = document.documentElement.clientWidth; // Ширина экрана
+            var imag = document.getElementById("imag");
+
+                function move() {
+                    let x=15;
+                    var imag = document.getElementById("imag"); 
+                    let interval = setInterval(movea, 100);//100-время движения, чем больше тем медленнее, 1-функция движения
+                    function movea(){
+                        if(x>0){
+                        imag.style.top = (curPosY += x) + "px";
+                        x--;
+                        }else{
+                            clearInterval(interval);
+                        }
+                    }    
+                }
+                function move1(){
+                    let x=0;
+                    var imag = document.getElementById("imag");
+                    let interval1 = setInterval(moveb, 100);//100-время движения, чем больше тем медленнее, 1-функция движения
+                    function moveb(){
+                        if(x<15){
+                        imag.style.top = (curPosY -= x) + "px";
+                        x++;
+                        }else{
+                            clearInterval(interval1);
+                        }
+                    }  
+                }
+                    /*while(x!=0){
+                        if(x!=0){
+                        imag.style.top = (curPosY += x) + "px";//позиция картинки каждый раз на 10 изменяется
+                        }
+                        x--;
+                    }
+                    while(x<15){
+                        if(x<15){
+                        imag.style.top = (curPosY -= x) + "px";//позиция картинки каждый раз на 10 изменяется
+                        }
+                        x++;
+                        if(x>=15){
+                            clearInterval(interval);
+                        }
+                    }*/
+                //if ((curPosY <=-1)) {//когда доходит до конца экрана картинка останавливается
+                //clearInterval(interval);
+               // }
+            
+           // interval = setInterval(move, 100);//100-время движения, чем больше тем медленнее, 1-функция движения
+        </script>
+    </body>
+</html>

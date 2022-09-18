@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+            function onDragStart(event) {//функция когда начинаем перетаскивать
+                event
+                .dataTransfer
+                .setData('text/plain', event.target.id);
+
+                event
+                .currentTarget
+            }
+            function onDragOver(event) {//функция когда мы отпускаем элемент
+                event.preventDefault();//чтобы браузер не перехватывал наши действия и мы могли отпустить элемент и он останется на прежнем месте
+            }
+            function onDrop(event) {//обработка самого события отпускания элемента
+                const id = event//получаем данные
+                .dataTransfer
+                .getData('text');
+                const draggableElement = document.getElementById(id);//передвигаемый элемент с этим id
+                const dropzone = event.target;//выбираем дропзону
+                dropzone.appendChild(draggableElement);//добавляем передвигаемый элемент в дропзону
+                event//очищаем данные
+                .dataTransfer
+                .clearData();
+            }
+        </script>
+    </head>
+    <body >
+        <div>
+        <div>
+        <div draggable="true" id="mydiv" style="color:blueviolet;" 
+        ondragstart="onDragStart(event)">12345676<!--draggable нужен ля того чтобы див можно было перемещать
+                                                  по умолчанию можно лишь ссылки, изображения и выделенные жлементы-->
+        </div>
+        </div>
+<img draggable="true" id="myimg" src="odyv.jpg" ondragstart="onDragStart(event)">
+        <div id="drg" style="height: 500px; width: 500px; background-color:beige; margin-left: 500px;" 
+        ondragover="onDragOver(event);" 
+        ondrop="onDrop(event);">
+        </div>
+        </div>
+
+        
+    </body>       
+</html>

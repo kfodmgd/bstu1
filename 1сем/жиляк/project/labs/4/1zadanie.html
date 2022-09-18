@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            "use strict"
+            function Gruppa(n,kolvo){
+            this.n=n;
+            this.kolvo=kolvo;
+            this.sub_stud=function sub_stud(k){
+                    this.kolvo-=k;
+                    document.write('В группе ' + this.n + ' отчислили '+ k + ' студентов.<br\>');
+                }
+            }
+            function Gruppa1(n1,kolvo1){
+            this.n1=n1;
+            this.kolvo1=kolvo1;
+            this.add_stud=function add_stud(k1){
+                    this.kolvo+=k1;
+                    document.write('<br\> <br\>В группе ' + this.n1 + ' добавили '+ k1 + ' студентов.<br\>');
+                }
+            }
+            let gr1=new Gruppa(1,30);
+            gr1.sub_stud(5);
+            document.write('В итоге их осталось '+gr1.kolvo+'.');
+
+            let gr2=new Gruppa1(2,15);
+            gr2.add_stud(4);
+            document.write(' В итоге их стало '+gr2.kolvo1+'.');
+
+            let gr3=new Gruppa1(3,45);
+            gr3.add_stud(20);
+            document.write(' В итоге их стало '+gr3.kolvo1+'.');
+            //var kolvo=prompt("введите кол-во студентов в первой группе ");
+            //var k=prompt("Введите сколько студентов было отчислено/зачислено ");
+            //alert(gruppa1.kolvo);
+        </script>
+    </body>
+</html>

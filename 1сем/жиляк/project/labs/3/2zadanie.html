@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var mas=['pow', 'pop', 'push', 'shift', 'round', 'floor', 'sline', 'sort'];
+            var masmath=mas.slice(4,6);
+            var masmath1=mas.slice(0,1);
+            
+            var math=masmath1.concat(masmath);
+            
+            var masarr=mas.slice(1,4);
+            var masarr1=mas.slice(6,8);
+            
+            var arr=masarr.concat(masarr1);
+
+            arr.unshift('slice');//добавляется элемент в начало массива
+            math.push('random');//добавляется элеменет в конец массива
+            document.write(mas+"<br>"+arr+"<br>"+math+"<br>"+"Длина массива с методами объектов Math "+math.length+"<br>"+"Длина массива с методами объектов Array "+arr.length);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    
+</head>
+
+<body>
+<canvas id="canvas" width=400px height=500px></canvas>
+<script>
+
+      const ctx = canvas.getContext('2d');
+      for (let i = -100; i <= 100; i += 0.1) {
+          ctx.fillStyle = "red";
+          ctx.fillRect(200+i*10,250-Math.pow(i,2),1,1);//первое значение за сдвиг по горизонтали, второе-сдвиг по вертикали
+          ctx.fillRect(200+i*10,250-Math.pow(i,3),1,1);//тертье-толщина по горизонтали, а второе-толщина по вертикали
+          ctx.fillRect(200+i*10,100-Math.sin(i),1,1);//+во втором задаём функцию
+          ctx.fillRect(200+i*10,100-Math.cos(i),1,1);
+          ctx.clearRect(0, 0, 400, 500);
+        }
+    </script>
+</body><!--ctx.fillRect(0, 0, 400, 500);-->
+</html>

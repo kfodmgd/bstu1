@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><!--доп инфа об объекте-->
+    <title>
+        Утки
+    </title>
+        <h1> 
+         Утки
+        </h1>
+    </head>
+    <body>
+
+        <!--JS-->
+        <script>
+            function num1(){
+                for(var i=0; i<document.all.length; i++) {
+                alert("Тег "+document.all[i].tagName+" номер "+i+";"); //вывод названия ттега и его номера начиная с 0
+                }
+            }
+            //2zadanie
+            function num2(){
+                for (let i = 0; i < document.body.childElementCount; i++) {
+                alert(document.body.children[i].tagName + "  ");//вывод всех дочерних элементов body
+                }
+            }
+            //3zadanie
+            function num3(){
+                for(var i=0; i<document.all.length; i++) {
+                    if(document.all[i].tagName=="SPAN"){
+                    alert("Содержимое первого элемента span: " + document.all[i].innerText);
+                    break;
+                    }
+                }
+                alert("Содержимое первого элемента span: " + document.getElementsByTagName("span")[0].innerText);
+                alert("Содержимое первого элемента span: " + document.getElementById("sp").innerText);//вывод содержимого 3 span тремя способами
+            }
+            //4zadanie
+            function num4(){
+                //let ball;
+                //let num;
+                //let table=document.getElementsByTagName("table");
+                //let row=table.rows;
+                //ball=Number(ball);
+                //num=Number(num);
+                //for (let i=0;row.length>i;i++){
+                //    ball=ball+document.tr[i].innerText;
+                //    num++;
+                //}
+                //alert(num);
+                //alert();
+                //alert(ball);
+
+                let td;
+                let i;
+                let sr;
+                let numex;
+                let k;
+                k=Number(k);
+                numex=Number(numex);
+                sr=Number(sr);
+                i=Number(i);
+                td=Number(td);
+                for (i=0;i<Number(td.length);i++){
+                    let td=tr[i].getElementsByTagName("td");
+                }
+                //let sr_ball;//средний балл
+                //let i;
+                //let j;
+                //let numex;//колво
+                //i=Number(i);
+                //j=Number(j);
+                //numex=Number(numex);
+                //sr_ball=Number(sr_ball);
+                //let ball=0;//сумма оценок
+                //let tr=document.getElementsByTagName("tr");//доступ к ячейкам
+                //for(i=0;i<Number(tr.length);i++){
+                //    let td=tr[i].getElementsByTagName("td");
+                //    for (j=0;j<Number(td.length);j++){
+                //        sr_ball+=Number(td[i].innerText);//перебор всех значений в ячейках
+                //        sr_ball+=Number(td[j].innerText);
+                //        numex=Number(numex+1);
+                //    }
+                //}
+                //sr_ball=Number(sr_ball/numex);
+                //alert(sr_ball);
+
+
+                //let avg = 0, td=0;
+                //for (i = 3; i <= Number(tr.length); i++) {
+                //td = document.getElementsByTagName("tr")[i].getElementsByTagName("td")[2].innerText
+                //avg += Number(td);
+                //console.log(avg);
+               // }
+
+                //avg /= 5;
+
+                //document.querySelectorAll("span")[1].innerHTML += avg;
+
+            }//подсчёт среднего балла , числа взяты из таблицы
+            num4();
+        </script>
+        <input type='button' value='Задание 1' onclick='num1()' />
+        <input type='button' value='Задание 2' onclick='num2()' />
+        <input type='button' value='Задание 3' onclick='num3()' />
+        <input type='button' value='Задание 4' onclick='num4()' />
+
+        
+        <h2>
+            Общая информация
+        </h2>
+        <h3>
+            Что такое утка?
+        </h3>
+        <p> <font color="DarkOliveGreen" size=4px> <i>У́тка — представитель птиц из нескольких родов семейства утиных: пеганки, нырковые утки, 
+            савки, речные утки, утки-пароходы, мускусные утки и крохали;<span style="color:darkblue" id="sp"> всего более 110 видов</span> Распространены
+             утки широко, в России более 30 видов. Самцы уток называются <span style="color:darkblue">се́лезнями</span>, птенцы утки — 
+             <span style="color:darkblue">утя́тами</span>. Слово утка происходит от др.-русск. уты (ср. укр. у́тиця), от праславянского *ǫtь или 
+             *ǫty (ср. цслав. ѫты, сербохорв. у̏тва, словен. о̣̑tvа, н.-луж. huśica). На индоевропейском уровне родственно лит. ántis «утка», 
+             др.-прусск. antis, др.-инд. ātíṣ «водяная птица», лат. аnаs, д.-в.-н. anut «утка», греч. νῆσσα.</p> </font> </i>
+        <h3>
+            Как они выглядят?
+        </h3>
+        <p> <font color="DarkGreen" size=6px><i>Утки — это птицы средних и небольших размеров с относительно короткой шеей и цевкой, покрытой 
+            спереди поперечными щитками. Окраска оперения разнообразна, у многих видов на крыле имеется особое «зеркальце». Для ряда видов 
+            характерен резко выраженный в период размножения <span style="color:darkblue">половой диморфизм</span>, проявляющийся чаще всего в 
+            разной окраске оперения самца и самки. У большинства видов <span style="color:darkblue">линька происходит дважды в году</span>; 
+            летняя — полная, осенняя — частичная. Домашние утки произошли от кряквы. Селезни домашних уток весят 3—4 кг, утки — 2—3,5 кг. Средняя 
+            годовая яйценоскость до 250 яиц. Породы домашних уток подразделяются на мясные (пекинские, серые украинские, чёрные белогрудые), 
+            мясо-яичные (зеркальные, хаки-кемпбелл), яичные (индийские бегуны). Уток разводят во многих странах, в том числе в России. </p> </font> </i>
+        <h3>
+           Кряква
+        </h3>
+        <p> <font color="SeaGreen" size=2px><b>Кря́ква (лат. Anas platyrhynchos) — птица из семейства утиных (Anatidae) отряда гусеобразных 
+            (Anseriformes). Наиболее известная и распространённая дикая утка. Длина тела самца около 62 см, самки — около 57 см, масса достигает 
+            1—1,5 кг[3] (осенью, когда птица откормится перед самым перелётом, её вес может достигать 2 кг). Голова и шея самца зелёные, зоб и 
+            грудь коричнево-бурые, спина и брюшная сторона тела серого цвета с тонкими поперечными пятнышками. Окраска самки бурая с более тёмными 
+            пятнышками, брюшная сторона буровато-серая с продольными пестринами. На крыле у самца и самки сине-фиолетовое «зеркало».
+            <span style="color:darkblue"> Частично перелётная птица.</span> Населяет пресные и слегка солоноватые водоёмы. В последние годы 
+            многие птицы зимуют на незамерзающих водоёмах в крупных городах и их окрестностях. Кряква является одним из основных 
+            <span style="color:darkblue">объектов спортивной, а местами — промысловой охоты.</span> От кряквы путём селекции выведено 
+            большинство современных пород домашних уток, кроме тех, которые были получены от мускусной утки. </p> </font> </b>
+        <!--НАзвание списка-->
+        <h2>
+            Интересное
+        </h2>
+        <ol><!--Начало списка выше-текст про основную инфу уток-->
+            <li>
+                Семейство утиных
+                <ul>
+                    <li>
+                        Утка
+                    </li>
+                    <li>
+                        Кряква
+                    </li>
+                    <li>
+                        Домашняя утка
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Интересные факты
+                <ul>
+                    <li>
+                        Страна, в которой утка пользуется наибольшей популярностью — Китай.
+                    </li>
+                    <li>
+                        В Латинской Америке утка в пищу практически не используется.
+                    </li>
+                    <li>
+                        Утиное кряканье не имеет эха. 
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Виды уток
+                <ul>
+                    <li>
+                        Мясные
+                    </li>
+                    <li>
+                        Яично-мясные
+                    </li>
+                    <li>
+                        Яичные
+                    </li>
+                    <li>
+                        Декоративные
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <!--Таблица-->
+        <table border="1" width="600">
+            <caption>Пример таблицы</caption>
+             <tr>
+                 <td>11</td>
+                 <td>12</td>
+                 <td>13</td>
+             </tr>
+             <tr>
+                 <td>21</td>
+                 <td>22</td>
+             </tr>
+             <tr>
+                <td>31</td>
+                <td>32</td>
+             </tr>
+             <tr>
+                <td>41</td>
+                <td>42</td>
+             </tr>
+             <tr>
+                <td>51</td>
+                <td>52</td>
+             </tr>
+        </table>
+    </body>
+</html>

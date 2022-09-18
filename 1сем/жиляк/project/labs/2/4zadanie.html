@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var a;
+            var b;
+            a=prompt("Введите целое число");
+            b=prompt("Введите дробное число");
+            a=Number(a);
+            b=Number(b);
+            var a1; var b1; 
+            var a2; var b2; 
+            var a3; var b3; 
+            var a4; var b4; 
+            a1=a.toExponential(3);
+            b1=b.toExponential(3);
+            a2=a.toFixed(3);
+            b2=b.toFixed(3);
+            a3=a.toPrecision(5);
+            b3=b.toPrecision(5);
+            a4=a.toString(2);
+            b4=a.toString(2);
+            document.write("<table border=1>");
+            document.write("<tr>"+"<td>"+"число"+"</td>"+"<td>"+"Метод"+"</td>"+"<td>"+"результат"+"</td>"+"<td>"+"описание метода"+"</td>"+"</tr>");
+            document.write("<tr>"+"<td>"+a+"</td>"+"<td>"+"toExponential"+"</td>"+"<td>"+a1+"</td>"+"<td>"+"записывает число в экспоненциальной форме"+"</td>"+"<br/>");
+            document.write("<tr>"+"<td>"+b+"</td>"+"<td>"+"toExponential"+"</td>"+"<td>"+b1+"</td>"+"<td>"+"записывает число в экспоненциальной форме"+"</td>"+"<br/>");
+            document.write("<tr>"+"<td>"+a+"</td>"+"<td>"+"toFixed"+"</td>"+"<td>"+a2+"</td>"+"<td>"+"задаёт кол-во знаков после точки"+"</td>"+"<br/>");
+            document.write("<tr>"+"<td>"+b+"</td>"+"<td>"+"toFixed"+"</td>"+"<td>"+b2+"</td>"+"<td>"+"задаёт кол-во знаков после точки"+"</td>"+"<br/>");  
+            document.write("<tr>"+"<td>"+a+"</td>"+"<td>"+"toPrecition"+"</td>"+"<td>"+a3+"</td>"+"<td>"+"задаёт общее кол-во знаком до точки и после неё"+"</td>"+"<br/>");
+            document.write("<tr>"+"<td>"+b+"</td>"+"<td>"+"toPrecition"+"</td>"+"<td>"+b3+"</td>"+"<td>"+"задаёт общее кол-во знаком до точки и после неё"+"</td>"+"<br/>");
+            document.write("<tr>"+"<td>"+a+"</td>"+"<td>"+"toString"+"</td>"+"<td>"+a4+"</td>"+"<td>"+"возвращает числу тип данных строка и переводит из данной системы счисления в указанную"+"</td>"+"<br/>");
+            document.write("<tr>"+"<td>"+b+"</td>"+"<td>"+"toString"+"</td>"+"<td>"+b4+"</td>"+"<td>"+"возвращает числу тип данных строка и переводит из данной системы счисления в указанную"+"</td>"+"<br/>");
+            document.write("</table>");
+        </script>
+    </body>
+</html>

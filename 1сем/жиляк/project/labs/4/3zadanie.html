@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            "use strict"
+            //ЧАСТЬ 1 ЗАДАНИЯ ДЛЯ ПРОВЕРКИ НА НАЛИЧИЕ ЭЛЕМЕНТОВ В 3 ЗАДАНИИ
+            function Gruppa(n,kolvo){
+            this.n=n;
+            this.kolvo=kolvo;
+            this.sub_stud=function sub_stud(k){
+                    this.kolvo-=k;
+                    //document.write('В группе ' + this.n + ' отчислили '+ k + ' студентов.<br\>');
+                }
+            }
+            let gr1=new Gruppa(1,30);
+            gr1.sub_stud(5);
+            //document.write('В итоге их осталось '+gr1.kolvo+'.');
+            //ЧАСТЬ 2 ЗАДАНИЯ ДЛЯ ПРОВЕРКИ НА НАЛИЧИЕ ЭЛЕМЕНТОВ В 3 ЗАДАНИИ
+            function Student(name, lname, fiz, mat, inf){
+                this.name=name;
+                this.lname=lname;
+                this.fiz=fiz;
+                this.mat=mat;
+                this.inf=inf;
+                this.sr_ball=function sr_ball(sr){
+                    sr=(this.mat+this.fiz+this.inf)/3;
+                    //document.write(this.name+" "+this.lname+" "+sr+"<br\>");
+                }
+            }
+            let ch1=new Student("Елизавета", "Быско",5,8,7);
+            ch1.sr_ball();
+
+
+            //3 ЗАДАНИЕ
+            let a=6*Math.PI*Math.PI;
+            let b=2*Math.cos(4)+Math.cos(12);
+            let c=3*Math.sin(9)+Math.log(5);
+            let arr=[a,b,c];
+            document.write(arr);
+            delete arr[2];//удаление 3 элемента в массиве
+            document.write("</br>");
+            document.write(arr);
+
+            document.write("</br>"+(1 in arr)+"</br>");//проверка на наличие 2 элемента
+
+            document.write(("kolvo" in gr1)+"</br>"+("name" in ch1));//проверка на наличие функции kolvo(name) в gr1(ch1)
+
+            document.write("</br>"+"</br>"+(gr1 instanceof Array)+"</br>"+(gr1 instanceof String)+"</br>"+(gr1 instanceof Object)+"</br>");//проверка на наличие в gr1 массива, стр, объ
+
+            function ret() {
+            return 5;
+            }//возврат к 5
+            document.write("</br>"+"</br>"+"тип объекта gr1(группы) "+typeof gr1);
+            document.write("</br>"+"тип объекта ch1(студента) "+typeof ch1);
+            document.write("</br>"+"тип объекта gr1.n(номер группы) "+typeof gr1.n);
+            document.write("</br>"+"тип объекта gr1.kolvo(кол-во людей в группе) "+typeof gr1.kolvo);
+            document.write("</br>"+"тип объекта имя студента "+typeof ch1.name);
+            document.write("</br>"+"тип объекта фамилия студента "+typeof ch1.lname);
+            document.write("</br>"+"тип объекта оценка за физику "+typeof ch1.fiz);
+            document.write("</br>"+"тип объекта оценка за математику "+typeof ch1.mat);
+            document.write("</br>"+"тип объекта оценка за информатику "+typeof ch1.inf);
+            document.write("</br>"+"тип объекта функции, возвращающей к 5 "+typeof ret);
+
+        </script>
+    </body>
+</html>

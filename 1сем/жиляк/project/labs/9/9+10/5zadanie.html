@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        @keyframes men{
+            0%{background-color: white;}
+            25%{background-color: lightgreen;}
+            50%{background-color: green;}
+            75%{background-color: lightgreen;}
+            100%{background-color: white;}
+        }
+        .menu-item{
+        border: 2px soild #66CDAA;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        }
+        .menu-item .submenu{
+        height: 40px;
+        width: 120;
+
+        position: absolute;
+        cursor: pointer;
+
+        animation-name:men;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div id="nav">
+            <div class="menu-item">
+                Меню 1
+               <div class="submenu">
+               Подменю
+               </div></div>
+               <div class="menu-item">
+                Меню 2
+               <div class="submenu">
+               Подменю
+               </div></div>
+               <div class="menu-item">
+                Меню 3
+               <div class="submenu">
+               Подменю
+               </div></div>
+               </div>
+                   <script>
+                            document.getElementById('nav').onmouseover = function(event){//отслеживает нахождение мыши внутри блока и нахоидтся ли она вообще на нём
+                                var target = event.target; //отслеживаем клик
+                                if (target.className == 'menu-item'){//проверяем был ли клик в необходимой области(в нашем случае меню)
+                                    var s = target.getElementsByClassName('submenu');
+                                    closeMenu();//скрываем остальные подменю кроме того, что находится под мышкой
+                                    s[0].style.display='block';//массив, содержащий ложное меню(нужен чтобы получить блок подменю)
+                                }
+                            }
+                            document.onmouseover=function(event){//функция для того чтобы подменю показывалось пока мышка нахоидтся в его области
+                                var target = event.target;//где клик
+                                console.log(event.target);
+                                if (target.className!='menu-item' && target.className!='submenu'){
+                                    closeMenu();
+                                }
+                            }
+                            function closeMenu(){//функция скрытия элементов на которых не находится мышка
+            //получение всех элементов подменю в блоке nav, присваивание 
+            //ne nado display:none
+                                var menu = document.getElementById('nav');
+                                var subm=document.getElementsByClassName('submenu');
+                                for (var i=0; i <subm.length; i++){
+                                    subm[i].style.display ="none";
+                                }
+                            }
+                        
+    </script>
+    </body>
+</html>

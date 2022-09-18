@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: rgb(3, 20, 41);
+}
+/*navigation*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;/*управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
+    background-color: #333;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    color: silver;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.nav li a:hover{
+    background-color: #111;
+}
+/*end of navigation*/
+.circul{
+    background-color: violet;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.firstLine{
+    display: block;
+    font-size: 38px;
+    margin-top: 50px;
+    margin-left: 35px;
+    color: rgb(195, 195, 233);
+}
+.secondLine{
+    display: block;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: rgb(195, 195, 233);
+}
+
+/*links with inf*/
+ul.link{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: rgb(195, 195, 233);
+}
+.link li:hover{
+    background-color: rgb( 4, 30, 66);
+}
+.link a{
+    text-decoration: none;
+    color:  rgb(195, 195, 233);
+}
+/*end of links*/
+
+/*animation and list with novigation*/
+.anotherFlex{
+    display:flex;
+}
+#canvas{
+    margin-bottom: -5px;
+    margin-top: -147px; 
+    margin-left: 500px;
+}
+/*end animation and list*/
+
+
+/*bottom*/
+.bottom{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+    background-color: #333;
+    padding-left: 0;
+ }
+ .under{
+    width:750px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: silver;
+ }
+

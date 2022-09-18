@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="ex">qwerty</div>
+        <div style="font-size: 20px;" id="za2">asdfg</div>
+        <img src="ruanskaya.jpg" id="image" onclick="img()">
+        <div id="inag">123456</div>
+        <img src="odyv.jpg" id="odu">
+        <br/>
+        <br/>
+        <p id="abz">Ducks and geese don’t see color the way we do.see reds, greens, yellows, and blues more vibrantly–thanks to their retinas–plus an 
+            extra set of cones allows them to see ultraviolet radiation. This gives them exceptional light sensitivity; as a result, shine and glare 
+            are the duck hunter’s enemy. Whether it’s a blued shotgun receiver or a pale, exposed face, waterfowl are adept at spotting unnatural 
+            reflection.</p>
+        <script>
+            ex.onmouseover = function() {//изменение цвета
+                ex.style.color= "red";
+            };
+            
+            ex.onmouseleave = function() {
+                ex.style.color= "purple";
+            };
+
+            za2.onclick=function(){//изменение размера
+                za2.style.fontSize="12px";
+            }
+
+
+            function img() {//смена картинки
+            let i=0;
+            let image=document.getElementById("image");
+            let im=new Array("ruanskaya.jpg","star 53.jpg");
+        
+            i++;
+            image.src = im[i];
+            }
+
+            inag.onclick=function st(){//замена текста на картинку
+                const pic="<img src='star 53.jpg'>"
+                inag.innerHTML=pic;
+            }
+
+            odu.onmouseover=function(){//принаведении картинка увеличивается, а после уменьшается
+                let maxwidth="1000px"
+                odu.style.width=maxwidth;
+            }
+            odu.onmouseleave=function(){
+                let minwidth="535px";
+                odu.style.width=minwidth;
+            }
+
+            abz.ondblclick=function(){//добавление границы при двойном щелчке мыши
+                abz.style.border="double";
+                abz.style.borderColor="green";
+            }
+            </script>
+    </body>
+</html>

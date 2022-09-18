@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+    </head>
+    <body>
+        <img src="odyv.jpg" id="imag" style="position: absolute; width: 100px; height: 100px;">
+
+        <script>
+            $(document).ready(function(){
+                $("#imag").click(function(){
+                    $("#imag").animate({fontSize:30},200)
+                    $("#imag").animate({left:500},200)
+                })
+            })
+        </script>
+    </body>
+</html>

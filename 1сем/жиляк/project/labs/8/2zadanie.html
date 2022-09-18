@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img src="odyv.jpg" id="imag" style="position: absolute; width: 100px; height: 100px;">
+
+        <script>
+            var curPosX = 0;//начальная позиция картинки
+            var interval;
+            var imgwidth=100;//определение ширины для того чтобы остановить картинку когда та дойдёт до конца экрана
+            var n = 10; // На сколько двигать за раз
+            var width = screen.height; // Ширина экрана
+            var imag = document.getElementById("imag");
+
+                function move() {
+                imag.style.left = (curPosX += n) + "px";//позиция картинки каждый раз на 10 изменяется
+                if ((curPosX >= (width - imgwidth))) {//когда доходит до конца экрана картинка останавливается
+                clearInterval(interval);
+                }
+            }
+            interval = setInterval(move, 100);//100-время движения, чем больше тем медленнее, 1-функция движения
+        </script>
+    </body>
+</html>

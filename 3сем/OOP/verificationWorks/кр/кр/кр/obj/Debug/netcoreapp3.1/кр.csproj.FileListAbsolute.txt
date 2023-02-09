@@ -1,0 +1,14 @@
+F:\3 сем\ооп\кр\кр\кр\bin\Debug\netcoreapp3.1\кр.exe
+F:\3 сем\ооп\кр\кр\кр\bin\Debug\netcoreapp3.1\кр.deps.json
+F:\3 сем\ооп\кр\кр\кр\bin\Debug\netcoreapp3.1\кр.runtimeconfig.json
+F:\3 сем\ооп\кр\кр\кр\bin\Debug\netcoreapp3.1\кр.runtimeconfig.dev.json
+F:\3 сем\ооп\кр\кр\кр\bin\Debug\netcoreapp3.1\кр.dll
+F:\3 сем\ооп\кр\кр\кр\bin\Debug\netcoreapp3.1\кр.pdb
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.csproj.AssemblyReference.cache
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.AssemblyInfoInputs.cache
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.AssemblyInfo.cs
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.csproj.CoreCompileInputs.cache
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.dll
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.pdb
+F:\3 сем\ооп\кр\кр\кр\obj\Debug\netcoreapp3.1\кр.genruntimeconfig.cache

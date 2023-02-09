@@ -1,0 +1,14 @@
+F:\3 сем\ооп\4new\4new\4new\bin\Debug\netcoreapp3.1\4new.exe
+F:\3 сем\ооп\4new\4new\4new\bin\Debug\netcoreapp3.1\4new.deps.json
+F:\3 сем\ооп\4new\4new\4new\bin\Debug\netcoreapp3.1\4new.runtimeconfig.json
+F:\3 сем\ооп\4new\4new\4new\bin\Debug\netcoreapp3.1\4new.runtimeconfig.dev.json
+F:\3 сем\ооп\4new\4new\4new\bin\Debug\netcoreapp3.1\4new.dll
+F:\3 сем\ооп\4new\4new\4new\bin\Debug\netcoreapp3.1\4new.pdb
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.csproj.AssemblyReference.cache
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.AssemblyInfoInputs.cache
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.AssemblyInfo.cs
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.csproj.CoreCompileInputs.cache
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.dll
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.pdb
+F:\3 сем\ооп\4new\4new\4new\obj\Debug\netcoreapp3.1\4new.genruntimeconfig.cache

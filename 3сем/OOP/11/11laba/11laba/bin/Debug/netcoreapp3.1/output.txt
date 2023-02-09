@@ -1,0 +1,1022 @@
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name
+Имя сборки, в которой определен класс: 11laba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+Класс Worker имеет публичный конструктор 3
+
+Извлекает все общедоступные публичные методы класса: 
+ String get_Name 
+ Void set_Name 
+ Int32 get_Price 
+ Void set_Price 
+virtual Void DisplayInfo 
+virtual String ToString 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+
+Свойства класса:
+System.String Name
+System.Int32 Price
+
+Все реализованные классом интерфейсы:
+
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Name

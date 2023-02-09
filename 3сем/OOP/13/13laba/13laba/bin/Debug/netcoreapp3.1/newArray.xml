@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTovar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tovar>
+    <Name>test</Name>
+    <Price>188</Price>
+    <END>Yes</END>
+  </Tovar>
+  <Tovar>
+    <Name>ABC</Name>
+    <Price>15963</Price>
+    <Desc>NewItem</Desc>
+    <New>TRUE</New>
+    <END>Yes</END>
+  </Tovar>
+</ArrayOfTovar>

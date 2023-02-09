@@ -1,0 +1,14 @@
+F:\3 сем\ооп\3\3laba\3laba\bin\Debug\netcoreapp3.1\3laba.exe
+F:\3 сем\ооп\3\3laba\3laba\bin\Debug\netcoreapp3.1\3laba.deps.json
+F:\3 сем\ооп\3\3laba\3laba\bin\Debug\netcoreapp3.1\3laba.runtimeconfig.json
+F:\3 сем\ооп\3\3laba\3laba\bin\Debug\netcoreapp3.1\3laba.runtimeconfig.dev.json
+F:\3 сем\ооп\3\3laba\3laba\bin\Debug\netcoreapp3.1\3laba.dll
+F:\3 сем\ооп\3\3laba\3laba\bin\Debug\netcoreapp3.1\3laba.pdb
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.csproj.AssemblyReference.cache
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.AssemblyInfoInputs.cache
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.AssemblyInfo.cs
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.csproj.CoreCompileInputs.cache
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.dll
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.pdb
+F:\3 сем\ооп\3\3laba\3laba\obj\Debug\netcoreapp3.1\3laba.genruntimeconfig.cache

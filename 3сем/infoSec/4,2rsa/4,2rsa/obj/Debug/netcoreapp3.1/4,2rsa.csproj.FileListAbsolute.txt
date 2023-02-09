@@ -1,0 +1,14 @@
+F:\3 сем\оиб\4,2rsa\4,2rsa\bin\Debug\netcoreapp3.1\4,2rsa.exe
+F:\3 сем\оиб\4,2rsa\4,2rsa\bin\Debug\netcoreapp3.1\4,2rsa.deps.json
+F:\3 сем\оиб\4,2rsa\4,2rsa\bin\Debug\netcoreapp3.1\4,2rsa.runtimeconfig.json
+F:\3 сем\оиб\4,2rsa\4,2rsa\bin\Debug\netcoreapp3.1\4,2rsa.runtimeconfig.dev.json
+F:\3 сем\оиб\4,2rsa\4,2rsa\bin\Debug\netcoreapp3.1\4,2rsa.dll
+F:\3 сем\оиб\4,2rsa\4,2rsa\bin\Debug\netcoreapp3.1\4,2rsa.pdb
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.csproj.AssemblyReference.cache
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.AssemblyInfoInputs.cache
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.AssemblyInfo.cs
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.csproj.CoreCompileInputs.cache
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.dll
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.pdb
+F:\3 сем\оиб\4,2rsa\4,2rsa\obj\Debug\netcoreapp3.1\4,2rsa.genruntimeconfig.cache

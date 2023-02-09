@@ -1,0 +1,13 @@
+F:\3 сем\оиб\5\5\bin\Debug\netcoreapp3.1\5.exe
+F:\3 сем\оиб\5\5\bin\Debug\netcoreapp3.1\5.deps.json
+F:\3 сем\оиб\5\5\bin\Debug\netcoreapp3.1\5.runtimeconfig.json
+F:\3 сем\оиб\5\5\bin\Debug\netcoreapp3.1\5.runtimeconfig.dev.json
+F:\3 сем\оиб\5\5\bin\Debug\netcoreapp3.1\5.dll
+F:\3 сем\оиб\5\5\bin\Debug\netcoreapp3.1\5.pdb
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.AssemblyInfoInputs.cache
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.AssemblyInfo.cs
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.csproj.CoreCompileInputs.cache
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.dll
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.pdb
+F:\3 сем\оиб\5\5\obj\Debug\netcoreapp3.1\5.genruntimeconfig.cache

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'magra';
+    src: url('../Magra-Regular.ttf');
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'magra';
+}
+
+//header----------------------------
+.logo,.Item1,.Item2{
+    color: black;
+    text-decoration: none;
+}
+.header{
+    height: 100px;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.logo{
+    font-size: 45px;
+    width: 150px;
+    margin-top: 35px;
+    text-align: left;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 50%;
+    margin-top: 55px;
+    font-size: 25px;
+    padding-right: 100px;
+}
+.Item1{
+    display:inline;
+    width: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+//cart
+h1{
+    text-align:center;
+}
+.cartTbl{
+    //display: flex;
+    padding-left: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+    //justify-content: space-between;
+    padding-right: 100px;
+}
+.cartUl{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    //justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 22px;
+}
+.crtbt{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    margin-left: 15px;
+}
+.crtItem1{
+    width: 100%;
+    //display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.total{
+    text-align: right;
+    padding-right: 100px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.buytxt{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px black solid;
+    //margin-top: 20px;
+    width: 300px;
+    display: block;
+}
+.buy{
+    background-color: transparent;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    font-size: 18px;
+    align-items: left;
+    margin-top: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+.empty{
+    font-size: 25px;
+}
+
+//footer
+footer{
+    margin-top: 75px;
+}
+.fTop{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.footerTop{
+    list-style-type: none;
+    text-align: left;
+}
+.lnk,.lnk:visited,.lnk:active{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.hr{
+    color: black;
+    background-color: black;
+    size:2px;
+    width: 100%;
+}

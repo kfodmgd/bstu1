@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'magra';
+    src: url('../Magra-Regular.ttf');
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'magra';
+}
+
+//header----------------------------
+.logo,.Item1,.Item2{
+    color: black;
+    text-decoration: none;
+}
+.header{
+    height: 100px;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.logo{
+    font-size: 45px;
+    width: 150px;
+    margin-top: 35px;
+    text-align: left;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 50%;
+    margin-top: 55px;
+    font-size: 25px;
+    padding-right: 100px;
+}
+.Item1{
+    display:inline;
+    width: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+//body
+//head
+.rectangle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 330px;
+    width: 100%;
+    margin-top: 90px;
+    vertical-align: middle;
+    text-align: center;
+    background-color:(rgb(247,247,247));
+}
+.imgRec{
+    width: 100%;
+    height: 330px;
+    margin-right: 100px;
+
+}
+.txt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    width: 50%;
+    margin-left: 10%;
+    position: absolute;
+    font-size: 27px;
+}
+
+//assort
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 150px;
+}
+.assort1 img, .assort2 img, .assort3 img, .assort4 img, .assort5 img, .assort6 img{
+    width: 350px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: absolute;
+    padding-bottom: 70px;
+}
+.txtAs:hover{
+    background-color: rgba(228, 228, 228, .628);
+    color: black;
+    transition: .1s linear;
+}
+.txtAs{
+    width: 350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:526px;
+    position: absolute;
+    font-size: 50px;
+    color: transparent;
+}
+
+//email
+.preBottom{
+    background-color: rgba(228, 228, 228, 1);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.desc{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.emailDisc{
+    font-size: 25px;
+}
+
+.email{
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 15px;
+    align-items: center;
+    text-align: left;
+}
+.mail{
+    border: solid 1px black;
+    background-color: transparent;
+    color: rgba(134, 134, 134, 1);
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    color:black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.send{
+    background-color: transparent;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    font-size: 22px;
+    align-items: left;
+    margin-top: 15px;
+    width: 75px;
+    height: 40px;
+
+}
+
+
+//footer
+.fTop{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.footerTop{
+    list-style-type: none;
+    text-align: left;
+}
+.lnk,.lnk:visited,.lnk:active{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.hrT{
+    margin-top: 50px;
+    color: black;
+    background-color: black;
+}
+.hr{
+    color: black;
+    background-color: black;
+    size:2px;
+    width: 100%;
+}
+
+

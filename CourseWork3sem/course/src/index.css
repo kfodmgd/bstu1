@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'magra';
+  src: url('./style/Magra-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'magra';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.lb{
+  text-decoration: line-through;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+}
+
+
+
+

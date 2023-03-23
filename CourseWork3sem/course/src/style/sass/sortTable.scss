@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'magra';
+    src: url('../Magra-Regular.ttf');
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'magra';
+}
+
+*{
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+
+
+.description{
+    height: 100px;
+}
+
+.oneGood {
+    width: 300px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.image{
+    width: 300px;
+    vertical-align: middle;
+    transition: 2s linear;
+}
+.descriptionTxt{
+    width: 300px;
+}
+.goods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.imgDesc{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.dsc{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: transparent;
+
+}
+.dsc:hover{
+    transition: .5s linear;
+    background-color: rgba(228, 228, 228, .628);
+    transition: .5s linear;
+    color: black;
+}
+.bot{
+    display: flex;
+    justify-content: space-around ;
+    height: 25px;
+}
+.prices{
+    color: rgba(94, 180, 86, 1);
+    font-size: 26px;
+    display: flex;
+}
+.lb{
+    margin-top: -13px;
+}
+.cart{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: black solid .5px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.btt{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+}
+.sorts{
+    text-align: left;
+}
+.lb{
+    display: block;
+}
+.lb1{
+    display: none;
+}
+
+.assort{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.search{
+    font-size: 20px;
+    margin-bottom: 75px;
+    background-color: white;
+    border: none;
+}
+.left{
+    margin-top: 50px;
+    display: block;
+    width: 20%;
+    font-size: 23px;
+    margin-left: 7%;
+    text-align: left;
+    text-decoration: none;
+    hr{
+        color: black;
+        background-color: black;
+        size:2px;
+        width: 100%;
+        }
+    ul{
+        li{
+        list-style-type: none;
+        margin-bottom: 10px;
+        }
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-left: 0px;
+    }
+}
+.assortiment{
+    width: 100%;
+    margin-left: 100px;
+    .hed{
+        width: 100%;
+        font-size: 30px;
+        text-align:left;
+        float: left;
+        margin-top: 50PX;
+    }
+}
+
+
